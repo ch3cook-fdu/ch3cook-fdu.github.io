@@ -39,7 +39,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), Mingsheng Li, [Xin Chen](https://chenxin.tech/), Peng Guo, Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), Taihao Li, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
-[paper](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
+[paper](https://arxiv.org/abs/2309.02999) | [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
 
 - Decoupled feature extraction and task decoding for 3D Dense Captioning.
 </div>
@@ -54,7 +54,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), [Xin Chen](https://chenxin.tech/), Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
-[paper](https://arxiv.org/abs/2301.02508) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \| [youtube](https://www.youtube.com/watch?v=azR_OvPWYfo)
+[paper](https://arxiv.org/abs/2301.02508) | [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR) | [youtube](https://www.youtube.com/watch?v=azR_OvPWYfo)
 
 - We address 3D Dense Captioning as a set prediction problem with parallel decoding.
 </div>
