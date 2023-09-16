@@ -31,7 +31,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 # 📝 Preprints and Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/vote2cap-detr++_arXiv.png' alt="sym" width=100%></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width=100%></div></div><div class='paper-box-text' markdown="1">
 
 [**<font size=4>Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</font>**](https://arxiv.org/abs/2309.02999)
 
@@ -46,7 +46,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/vote2cap-detr_cvpr2023.png' alt="sym" width=100%></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/vote2cap-detr cvpr2023.png' alt="sym" width=100%></div></div><div class='paper-box-text' markdown="1">
 
 [**<font size=4>End-to-End 3D Dense Captioning with Vote2Cap-DETR</font>**](https://arxiv.org/abs/2301.02508)
 
