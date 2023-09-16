@@ -57,7 +57,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 - We address 3D Dense Captioning as a set prediction problem with parallel decoding.
 - The first non-"detect-then-describe" framework for 3D Dense Captioning.
-- Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023.
+- 🎖 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023.
 </div>
 </div>
 
