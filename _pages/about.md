@@ -46,27 +46,11 @@ My current research interests include: *3D scene understanding*, *vision and lan
 </div>
 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width=100%></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/vote2cap-detr cvpr2023.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-[**<font size=4>Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</font>**](https://arxiv.org/abs/2309.02999)
-
-**arXiv**
-
-**<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), Mingsheng Li, [Xin Chen](https://chenxin.tech/), Peng Guo, Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), Taihao Li, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
-
-[paper](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
-
-- Decoupled feature extraction and task decoding for 3D Dense Captioning.
-</div>
-</div> -->
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/vote2cap-detr cvpr2023.png' alt="sym" width=100%></div></div><div class='paper-box-text' markdown="1">
-
-[**<font size=4>End-to-End 3D Dense Captioning with Vote2Cap-DETR</font>**](https://arxiv.org/abs/2301.02508)
-
-**CVPR 2023**
-
+[**<font size=4>End-to-End 3D Dense Captioning with Vote2Cap-DETR</font>**](https://arxiv.org/abs/2301.02508) \\
+**CVPR 2023** \\
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), [Xin Chen](https://chenxin.tech/), Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
 [paper](https://arxiv.org/abs/2301.02508) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \| [youtube](https://www.youtube.com/watch?v=azR_OvPWYfo)
