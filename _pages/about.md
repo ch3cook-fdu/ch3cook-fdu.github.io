@@ -56,6 +56,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 [paper](https://arxiv.org/abs/2301.02508) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \| [youtube](https://www.youtube.com/watch?v=azR_OvPWYfo)
 
 - We address 3D Dense Captioning as a set prediction problem with parallel decoding.
+- This is the first non-"detect-then-describe" framework for 3D Dense Captioning.
 </div>
 </div>
 
