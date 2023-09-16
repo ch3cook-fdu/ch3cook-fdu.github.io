@@ -23,8 +23,8 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.10*: &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
+- *2023.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
 
 # 📝 Publications 
 
@@ -42,17 +42,18 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+# 🎖 Awards and Scholarships
+
+- *Oct. 2023*. 1st place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023.
+- *Sep. 2022 - Jul.2023*. 2nd prize of the Scholarship for Oustanding Students of Master's Degrees at Fudan University.
+- *Sep. 2021 - Jul.2022*. Award for the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
+- *Sep. 2020 - Jul.2021*. 2nd prize of the Scholarship for Outstanding Students at Fudan University, *2020 - 2021*.
+
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09 - 2024.06 (expected)*, Master student at Fudan University. 
+- *2017.09 - 2021.06*, Bachelor student at Fudan University. 
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.06*, Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
