@@ -66,10 +66,10 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 # 🥇 Awards and Scholarships
 
-- *Oct. 2023*. 1st place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
-- *Sep. 2022 - Jul.2023*. 2nd prize of the Scholarship for Oustanding Students of Master's Degrees at Fudan University.
+- *Oct. 2023*. **1st** place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
+- *Sep. 2022 - Jul.2023*. **2nd** prize of the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
 - *Sep. 2021 - Jul.2022*. Award for the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
-- *Sep. 2020 - Jul.2021*. 2nd prize of the Scholarship for Outstanding Students at Fudan University.
+- *Sep. 2020 - Jul.2021*. **2nd** prize of the Scholarship for Outstanding Students at Fudan University.
 
 
 
