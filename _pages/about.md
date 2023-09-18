@@ -23,8 +23,8 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 
 # 🔥 News
-- *2023.10*: &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
-- *2023.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
+- *2023.10*. &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
+- *2023.03*. &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
 
 
 
@@ -75,16 +75,16 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 
 # 📖 Educations
-- *2021.09 - 2024.06 (expected)*, Master student at Fudan University. 
-- *2017.09 - 2021.06*, Bachelor student at Fudan University. 
+- *2021.09 - 2024.06 (expected)*. Master student at Fudan University. 
+- *2017.09 - 2021.06*. Bachelor student at Fudan University. 
 
 
 
 
 # 💬 Invited Talks
-- *2023.06*, Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
+- *2023.06*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
 
 
 
 # 💻 Internships
-- *2020.07 - 2020.10*, Huawei Technologies Shanghai R&D Center, Shanghai, China.
+- *2020.07 - 2020.10*. Huawei Technologies Shanghai R&D Center, Shanghai, China.
