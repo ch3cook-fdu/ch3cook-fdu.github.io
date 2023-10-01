@@ -82,6 +82,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 
 # 💬 Invited Talks
+- *2023.10*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [Slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)
 - *2023.06*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
 
 
