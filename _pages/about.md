@@ -23,6 +23,7 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 
 # 🔥 News
+
 - *2023.10*. &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
 - *2023.03*. &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
 
@@ -89,6 +90,6 @@ My current research interests include: *3D scene understanding*, *vision and lan
 
 
 
-# 💻 Internships
+<!-- # 💻 Internships
 
-- *2020.07 - 2020.10*. Huawei Technologies Shanghai R&D Center, Shanghai, China.
+- *2020.07 - 2020.10*. Huawei Technologies Shanghai R&D Center, Shanghai, China. -->
