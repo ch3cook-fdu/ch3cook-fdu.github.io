@@ -17,10 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a third-year Master's student in Electronic Engineering(EE) at Fudan University (Sep. 2021 - Jun. 2024, expected). I am supervised by [Prof. Tao Chen](https://eetchen.github.io/) at [Fudan EDL Lab](https://eetchen.github.io/). Before this, I obtained my Bachelor's degree in Data Science, also from Fudan University (Sep. 2017 - Jun. 2021). [\[CV\]](resume/Sijin Chen's Resume.pdf)
+I am currently a third-year Master's student in Electronic Engineering(EE) at Fudan University (Sep. 2021 - Jun. 2024, expected). I am supervised by [Prof. Tao Chen](https://eetchen.github.io/) at [Fudan EDL Lab](https://eetchen.github.io/). Before this, I obtained my Bachelor's degree in Data Science, also from Fudan University (Sep. 2017 - Jun. 2021). 
 
 My current research interests include: *3D scene understanding*, *vision and language*, and *multi-modal learning*.
 
+You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
