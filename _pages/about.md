@@ -25,8 +25,8 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
-- *2023.10*. &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
-- *2023.03*. &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
+- *Oct. 2023*. &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
+- *Mar. 2023*. &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
 
 
 
@@ -68,27 +68,27 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🥇 Awards and Scholarships
 
-- *2023.10*. **1st** place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
-- *2022.09 - 2023.06*. National Award (rank 1/46).
-- *2021.09 - 2022.06*. **2nd** prize of the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
-- *2021.09*. Award for the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
-- *2020.09 - 2021.06*. **2nd** prize of the Scholarship for Outstanding Students at Fudan University.
+- *Oct. 2023*. **1st** place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
+- *Sep. 2023*. National Award (rank 1/46).
+- *Sep. 2022*. **2nd** prize of the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
+- *Sep. 2021*. Award for the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
+- *Jun. 2021*. **2nd** prize of the Scholarship for Outstanding Students at Fudan University.
 
 
 
 
 # 📖 Educations
 
-- *2021.09 - 2024.06 (expected)*. Master student at Fudan University. 
-- *2017.09 - 2021.06*. Bachelor student at Fudan University. 
+- *Sep. 2021 - Jun. 2024 (expected)*. Master student at Fudan University. 
+- *Sep. 2017 - Jun. 2021*. Bachelor student at Fudan University. 
 
 
 
 
 # 💬 Invited Talks
 
-- *2023.10*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [\[Slides\]](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)
-- *2023.06*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
+- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [\[Slides\]](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)
+- *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
 
 
 
