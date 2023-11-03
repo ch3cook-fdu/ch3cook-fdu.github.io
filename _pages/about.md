@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a third-year Master's student in Electronic Engineering(EE) at Fudan University (Sep. 2021 - Jun. 2024, expected). I am supervised by [Prof. Tao Chen](https://eetchen.github.io/) at [Fudan EDL Lab](https://eetchen.github.io/). Before this, I obtained my Bachelor's degree in Data Science, also from Fudan University (Sep. 2017 - Jun. 2021). 
+I am currently a third-year Master's student in Electronic Engineering(EE) at Fudan University (Sep. 2021 - Jun. 2024, expected). I am supervised by [Prof. Tao Chen](https://eetchen.github.io/), and am fortunate to work closely with [Dr. Hongyuan Zhu}(https://hongyuanzhu.github.io/). Before this, I obtained my Bachelor's degree in Data Science, also from Fudan University (Sep. 2017 - Jun. 2021). 
 
 My current research interests include: *3D scene understanding*, *vision and language*, and *multi-modal learning*.
 
@@ -85,7 +85,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 
 
-# 💬 Invited Talks
+# 💬 Oral Presentations
 
 - *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [\[Slides\]](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)
 - *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
