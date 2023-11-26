@@ -59,7 +59,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 - We address 3D Dense Captioning as a set prediction problem with parallel decoding.
 - The first non-"detect-then-describe" framework for 3D Dense Captioning.
-- 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023.
+- 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [[talk]](https://www.youtube.com/watch?v=RLrdi-Yhn1o)
 </div>
 </div>
 
@@ -87,7 +87,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 💬 Oral Presentations
 
-- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [\[Slides\]](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)
+- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) | [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)
 - *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
 
 
