@@ -69,7 +69,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 # 🥇 Awards and Scholarships
 
 - *Oct. 2023*. **1st** place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
-- *Sep. 2023*. National Award (rank 1/46).
+- *Sep. 2023*. National Scholarship (rank 1/46).
 - *Sep. 2022*. **2nd** prize of the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
 - *Sep. 2021*. Award for the Scholarship for Outstanding Students of Master's Degrees at Fudan University.
 - *Jun. 2021*. **2nd** prize of the Scholarship for Outstanding Students at Fudan University.
