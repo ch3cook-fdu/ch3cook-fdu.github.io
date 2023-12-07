@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a third-year Master's student in Electronic Engineering(EE) at Fudan University (Sep. 2021 - Jun. 2024, expected). I am supervised by [Prof. Tao Chen](https://eetchen.github.io/), and am fortunate to work closely with [Dr. Hongyuan Zhu](https://hongyuanzhu.github.io/). Before this, I obtained my Bachelor's degree in Data Science, also from Fudan University (Sep. 2017 - Jun. 2021). 
+I am currently a third-year Master's student in Artificial Intelligene at Fudan University (Sep. 2021 - Jun. 2024, expected). I am supervised by [Prof. Tao Chen](https://eetchen.github.io/), and am fortunate to work closely with [Dr. Hongyuan Zhu](https://hongyuanzhu.github.io/). Before this, I obtained my Bachelor's degree in Data Science, also from Fudan University (Sep. 2017 - Jun. 2021). 
 
 My current research interests include: *3D scene understanding*, *vision and language*, and *multi-modal learning*.
 
@@ -31,7 +31,20 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 
 
-# 📝 Preprints and Publications 
+# 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/LL3DA.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</font>**](https://arxiv.org/abs/2311.18651) \\
+**arXiv** \\
+**<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/), [Chi Zhang](https://icoz69.github.io/), Mingsheng Li, [Gang Yu](https://www.skicyyu.org/), [Hao Fei](http://haofei.vip/), [Hongyuan Zhu](https://hongyuanzhu.github.io/), Jiayuan Fan, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
+
+[project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
+
+- Propose a Large Language 3D Assistant that responds to both visual interactions and textual instructions in complex 3D environments.
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width="100%"></div></div>
@@ -59,7 +72,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 - We address 3D Dense Captioning as a set prediction problem with parallel decoding.
 - The first non-"detect-then-describe" framework for 3D Dense Captioning.
-- 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023.
+- 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [[talk]](https://www.youtube.com/watch?v=RLrdi-Yhn1o)
 </div>
 </div>
 
@@ -87,7 +100,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 💬 Oral Presentations
 
-- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [\[Slides\]](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)
+- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. \[[talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) \| [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)\]
 - *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
 
 

@@ -7,7 +7,7 @@ main:
     url: "/#-news"
 
   - title: "Publications"
-    url: "/#-preprints-and-publications"
+    url: "/#-selected-publications"
 
   - title: "Awards and Scholarships"
     url: "/#-awards-and-scholarships"
