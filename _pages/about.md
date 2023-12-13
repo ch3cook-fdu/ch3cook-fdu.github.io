@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a final-year Master’s student in Artificial Intelligene at Fudan University (Sep. 2021 - Jun. 2024, expected). I am supervised by Prof. [Tao Chen](https://eetchen.github.io/), and am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/). Before this, I obtained my Bachelor’s degree in Data Science and Big Data Technology also from Fudan University (Sep. 2017 - Jun. 2021).
 
-My long term research goal is to develop vision-language systems that possess the capacity to *comprehend*, *reason*, and *envision* the physical world.
+My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
 
 You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
