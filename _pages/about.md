@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a final-year Master’s student in Artificial Intelligene at Fudan University (Sep. 2021 - Jun. 2024, expected), supervised by Prof. [Tao Chen](https://eetchen.github.io/). I am also fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor’s degree in Data Science and Big Data Technology also from Fudan University (Sep. 2017 - Jun. 2021).
+I am currently a final-year Master’s student in Artificial Intelligene at Fudan University (Sep. 2021 - Jun. 2024, expected), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am also fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor’s degree in Data Science and Big Data Technology also from Fudan University (Sep. 2017 - Jun. 2021).
 
 My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
 
