@@ -25,7 +25,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
-- *Jan. 2024*. &nbsp; 🐧🐧 Joined Tencent as a research intern, working on 3D generation. 
+- *Jan. 2024*. &nbsp;🐧🐧 Joined Tencent as a research intern, working on 3D generation. 
 - *Oct. 2023*. &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
 - *Mar. 2023*. &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
 
