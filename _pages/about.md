@@ -25,20 +25,21 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
+- *Feb. 2024*. &nbsp;🎉🎉 One paper accepted to CVPR 2024. 
 - *Jan. 2024*. &nbsp;🐧🐧 Joined Tencent as a research intern, working on 3D generation. 
-- *Oct. 2023*. &nbsp;🎉🎉 Win the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
-- *Mar. 2023*. &nbsp;🎉🎉 One paper is accepted by CVPR 2023. 
+- *Oct. 2023*. &nbsp;🎉🎉 Won the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
+- *Feb. 2023*. &nbsp;🎉🎉 One paper accepted to CVPR 2023. 
 
 
 
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/LL3DA.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/LL3DA.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</font>**](https://arxiv.org/abs/2311.18651) \\
-**arXiv** \\
+**CVPR 2024** \\
 **<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/), [Chi Zhang](https://icoz69.github.io/), Mingsheng Li, [Gang Yu](https://www.skicyyu.org/), [Hao Fei](http://haofei.vip/), [Hongyuan Zhu](https://hongyuanzhu.github.io/), Jiayuan Fan, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
 [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
