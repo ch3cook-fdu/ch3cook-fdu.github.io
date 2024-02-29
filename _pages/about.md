@@ -49,11 +49,11 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI (minor revision)</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</font>**](https://arxiv.org/abs/2309.02999) \\
-**arXiv** \\
+**T-PAMI (minor revision)** \\
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), Mingsheng Li, [Xin Chen](https://chenxin.tech/), Peng Guo, Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), Taihao Li, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
 [arXiv](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
