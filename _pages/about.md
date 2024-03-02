@@ -21,14 +21,14 @@ I am currently a final-year Master’s student in Artificial Intelligene at Fuda
 
 My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
 
-You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
+📣 I am actively looking for Ph.D. opportunities, please check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
-- *Feb. 2024*. &nbsp;🎉🎉 One paper accepted to CVPR 2024. 
+- *Feb. 2024*. &nbsp;🎉🎉 One paper accepted to **<font color="#dd0000">CVPR 2024</font>**. 
 - *Jan. 2024*. &nbsp;🐧🐧 Joined Tencent as a research intern, working on 3D generation. 
-- *Oct. 2023*. &nbsp;🎉🎉 Won the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. 
-- *Feb. 2023*. &nbsp;🎉🎉 One paper accepted to CVPR 2023. 
+- *Oct. 2023*. &nbsp;🎉🎉 Won the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at **<font color="#dd0000">ICCV 2023</font>**. 
+- *Feb. 2023*. &nbsp;🎉🎉 One paper accepted to **<font color="#dd0000">CVPR 2023</font>**. 
 
 
 
@@ -39,7 +39,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</font>**](https://arxiv.org/abs/2311.18651) \\
-**CVPR 2024** \\
+**<font color="#dd0000">CVPR 2024</font>** \\
 **<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/), [Chi Zhang](https://icoz69.github.io/), Mingsheng Li, [Gang Yu](https://www.skicyyu.org/), [Hao Fei](http://haofei.vip/), [Hongyuan Zhu](https://hongyuanzhu.github.io/), Jiayuan Fan, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
 [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
@@ -53,7 +53,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</font>**](https://arxiv.org/abs/2309.02999) \\
-**T-PAMI (minor revision)** \\
+**<font color="#dd0000">T-PAMI (minor revision)</font>** \\
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), Mingsheng Li, [Xin Chen](https://chenxin.tech/), Peng Guo, Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), Taihao Li, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
 [arXiv](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
@@ -67,7 +67,7 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>End-to-End 3D Dense Captioning with Vote2Cap-DETR</font>**](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper.html) \\
-**CVPR 2023** \\
+**<font color="#dd0000">CVPR 2023</font>** \\
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), [Xin Chen](https://chenxin.tech/), Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
 [paper](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper.html) \| [arXiv](https://arxiv.org/abs/2301.02508) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \| [youtube](https://www.youtube.com/watch?v=azR_OvPWYfo)
@@ -102,8 +102,8 @@ You can check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 💬 Oral Presentations
 
-- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. \[[talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) \| [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)\]
-- *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, VALSE 2023, Wuxi, China. 
+- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at **<font color="#dd0000">ICCV 2023</font>**. \[[talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) \| [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)\]
+- *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China. 
 
 
 
