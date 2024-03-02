@@ -21,14 +21,14 @@ I am currently a final-year Master’s student in Artificial Intelligene at Fuda
 
 My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
 
-📣 I am actively looking for Ph.D. opportunities, please check out my resume [here](resume/Sijin Chen's Resume.pdf).
+📣 <font color="#dd0000">I am actively looking for Ph.D. opportunities.</font> Please check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
-- *Feb. 2024*. &nbsp;🎉🎉 One paper accepted to **<font color="#dd0000">CVPR 2024</font>**. 
+- *Feb. 2024*. &nbsp;🎉🎉 One paper accepted to <font color="#dd0000">CVPR 2024</font>. 
 - *Jan. 2024*. &nbsp;🐧🐧 Joined Tencent as a research intern, working on 3D generation. 
-- *Oct. 2023*. &nbsp;🎉🎉 Won the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at **<font color="#dd0000">ICCV 2023</font>**. 
-- *Feb. 2023*. &nbsp;🎉🎉 One paper accepted to **<font color="#dd0000">CVPR 2023</font>**. 
+- *Oct. 2023*. &nbsp;🎉🎉 Won the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at <font color="#dd0000">ICCV 2023</font>. 
+- *Feb. 2023*. &nbsp;🎉🎉 One paper accepted to <font color="#dd0000">CVPR 2023</font>. 
 
 
 
