@@ -21,7 +21,7 @@ I am currently a final-year Master’s student in Artificial Intelligence at Fud
 
 My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
 
-📣 <font color="#dd0000">I am actively looking for Ph.D. opportunities.</font> Please check out my resume [here](resume/Sijin Chen's Resume.pdf).
+📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
