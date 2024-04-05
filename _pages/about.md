@@ -27,7 +27,7 @@ My long-term research goal is to develop vision-language systems that can *compr
 
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 - *Jan. 2024*. &nbsp;🐧🐧 Join Tencent as a research intern, working on 3D generation. 
-- *Oct. 2023*. &nbsp;🎉🎉 Our method [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) won the Scan2Cap Challenge at <font color="#dd0000">ICCV 2023</font>. 
+- *Oct. 2023*. &nbsp;🎉🎉 Win the Scan2Cap Challenge at <font color="#dd0000">ICCV 2023</font>. 
 - *Feb. 2023*. &nbsp;🎉🎉 Our [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) paper is accepted to <font color="#dd0000">CVPR 2023</font>. 
 
 
