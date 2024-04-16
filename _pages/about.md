@@ -57,7 +57,7 @@ My long-term research goal is to develop vision-language systems that can *compr
 **<font color="#dd0000">T-PAMI 2024</font>** | [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \\
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), Mingsheng Li, [Xin Chen](https://chenxin.tech/), Peng Guo, Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), Taihao Li, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
-[arXiv](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
+[paper](https://ieeexplore.ieee.org/abstract/document/10496863/) \| [arXiv](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
 
 - Decoupled feature extraction and task decoding for 3D Dense Captioning.
 </div>
