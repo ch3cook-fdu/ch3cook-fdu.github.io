@@ -41,11 +41,11 @@ My long-term research goal is to develop vision-language systems that can *compr
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/meshxl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**<font size=4>MeshXL: Neural Coordinate Field for Generative 3D Foundation Models</font>**](https://arxiv.org/abs/2405.208531) \\
+[**<font size=4>MeshXL: Neural Coordinate Field for Generative 3D Foundation Models</font>**](https://arxiv.org/abs/2405.20853) \\
 **<font color="#000000">pre-print</font>** | [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL) \\
 **<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/)$^{\dagger}$, Anqi Pang, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Wei Cheng](https://wchengad.github.io/), Yijun Fu, [Fukun Yin](https://fukunyin.github.io/), Yanru Wang, Zhibin Wang, [Chi Zhang](https://icoz69.github.io/), [Jingyi Yu](http://www.yu-jingyi.com/cv/), [Gang Yu](https://www.skicyyu.org/), Bin Fu, [Tao Chen](https://eetchen.github.io/)$^{\ddagger}$
 
-[arXiv](https://arxiv.org/abs/2405.208531) \| [github](https://github.com/OpenMeshLab/MeshXL)
+[arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
 
 - Propose a family of auto-regressively generative pre-trained foundation models for 3D mesh generation.
 </div>
