@@ -38,6 +38,8 @@ My long-term research goal is to develop vision-language systems that can *compr
 # 📝 Selected Publications 
 
 
+### 💡 Can LLMs speak 3D?
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/meshxl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -52,6 +54,7 @@ My long-term research goal is to develop vision-language systems that can *compr
 </div>
 
 
+### 💡 Can LLMs understand 3D?
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/LL3DA.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -66,6 +69,8 @@ My long-term research goal is to develop vision-language systems that can *compr
 </div>
 </div>
 
+
+### 💡 Language for better 3D scene understanding
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2024</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
