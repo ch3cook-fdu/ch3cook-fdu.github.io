@@ -48,7 +48,7 @@ My long-term research goal is to develop vision-language systems that can *compr
 **<font color="#000000">pre-print</font>** | [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL) \\
 **<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/)$^{\dagger}$, Anqi Pang, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Wei Cheng](https://wchengad.github.io/), Yijun Fu, [Fukun Yin](https://fukunyin.github.io/), Yanru Wang, Zhibin Wang, [Chi Zhang](https://icoz69.github.io/), [Jingyi Yu](http://www.yu-jingyi.com/cv/), [Gang Yu](https://www.skicyyu.org/), Bin Fu, [Tao Chen](https://eetchen.github.io/)$^{\ddagger}$
 
-\| [project](https://meshxl.github.io/) [arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
+[project](https://meshxl.github.io/) \| [arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
 
 - Propose a family of auto-regressively generative pre-trained foundation models for 3D mesh generation.
 </div>
