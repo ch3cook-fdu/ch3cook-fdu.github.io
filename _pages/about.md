@@ -25,7 +25,7 @@ My long-term research goal is to develop vision-language systems that can *compr
 
 # 🔥 News
 
-- *Jul. 2024*. &nbsp;🎉🎉 Our paper [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a large scale dataset querying 3D LLMs with multi-modal prompts, is accepted to <font color="#dd0000">ECCV 2024</font>.
+- *Jul. 2024*. &nbsp;🎉🎉 Our paper [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, is accepted to <font color="#dd0000">ECCV 2024</font>.
 - *May. 2024*. &nbsp;🎉🎉 We release [MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL), a family of generative 3D foundation models for 3D meshes.
 - *May. 2024*. &nbsp;🎉🎉 I successfully defended my master's thesis! \[[defense slides](presentation/Sijin_Chen_master_thesis_defense.pdf)\]
 - *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>. 
@@ -39,10 +39,10 @@ My long-term research goal is to develop vision-language systems that can *compr
 
 # 📝 Selected Publications 
 
-I started my research on exploring **how to use language for better 3D scene understanding** ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) & [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999)).
-Then, as large language models exhibits tremendous generalist potentials, I also explored **whether LLMs can understand 3D** ([LL3DA](https://arxiv.org/abs/2311.18651) and [M3DBench](https://arxiv.org/abs/2312.10763)).
-After that, I spent a wonderful half year exploring **whether LLMs can speaks 3D** ([MeshXL](https://arxiv.org/abs/2405.20853)).
-Currently, I am working on both embodied AI and AIGC.
+I started my research on exploring <font color="#dd0000">***how to use language for better 3D scene understanding***</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) & [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999)).
+Then, as large language models exhibits tremendous generalist potentials, I also explored <font color="#dd0000">***whether LLMs can understand 3D***</font> ([LL3DA](https://arxiv.org/abs/2311.18651) and [M3DBench](https://arxiv.org/abs/2312.10763)).
+After that, I spent a wonderful half year exploring <font color="#dd0000">***whether LLMs can speaks 3D***</font> ([MeshXL](https://arxiv.org/abs/2405.20853)).
+Currently, I am working on both <font color="#dd0000">***embodied AI***</font> and <font color="#dd0000">***AIGC***</font>.
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/meshxl.png' alt="sym" width="100%"></div></div>
