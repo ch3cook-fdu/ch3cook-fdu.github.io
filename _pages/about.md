@@ -41,7 +41,7 @@ My long-term research goal is to develop vision-language systems that can *compr
 
 I started my research on exploring <font color="#dd0000">how to use language for better 3D scene understanding</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) and [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999)).
 Then, as large language models exhibits tremendous generalist potentials, I also explored <font color="#dd0000">whether LLMs can understand 3D</font> ([LL3DA](https://arxiv.org/abs/2311.18651) and [M3DBench](https://arxiv.org/abs/2312.10763)).
-After that, I spent a wonderful half year exploring <font color="#dd0000">whether LLMs can speaks 3D</font> ([MeshXL](https://arxiv.org/abs/2405.20853)).
+After that, I spent a wonderful half year exploring <font color="#dd0000">whether LLMs can speak 3D</font> ([MeshXL](https://arxiv.org/abs/2405.20853)).
 Currently, I am working on both <font color="#dd0000">embodied AI</font> and <font color="#dd0000">AIGC</font>.
 
 
