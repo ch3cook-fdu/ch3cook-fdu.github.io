@@ -17,11 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+
+I am currently an AI researcher working on embodied AI with Dr. [Tao Kong](https://www.taokong.org/) at **Bytedance Research**.
+
 I received my Master's degree in Artificial Intelligence from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree in Data Science and Big Data Technology also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
 My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
 
-📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Sijin Chen's Resume.pdf).
+📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
 # 🔥 News
 
@@ -123,16 +126,19 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 
 # 📖 Educations
 
-- *Sep. 2021 - Jun. 2024 (expected)*. Master student at Fudan University. 
+- *Sep. 2021 - Jun. 2024*. Master student at Fudan University. 
 - *Sep. 2017 - Jun. 2021*. Bachelor student at Fudan University. 
-
 
 
 
 # 💬 Oral Presentations
 
-- *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at **<font color="#dd0000">ICCV 2023</font>**. \[[talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) \| [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)\]
-- *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China. 
+- *Oct. 2023*. "**Vote2Cap-DETR**: A Set-to-Set Perspective Towards 3D Dense Captioning".
+    By treating 3D Dense Captioning as a translation task from a set of object queries into a set of ``box-caption'' pairs, we present a set-to-set perspective towards 3D Dense Captioning. 
+    A **<font color="#dd0000">winner presentation</font>** for the Scan2Cap challenge at **<font color="#dd0000">ICCV 2023</font>**. \[[talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) \| [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)\]
+
+- *Jun. 2023*. "End-to-End 3D Dense Captioning with Vote2Cap-DETR"
+    We present an end-to-end transformer model for localizing and describing objects in parallel within diverse 3D environments. A paper presentation at **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China.
 
 
 
