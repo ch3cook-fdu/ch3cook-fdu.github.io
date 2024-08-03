@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<!-- I am currently an AI researcher working on **embodied AI** with Dr. [Tao Kong](https://www.taokong.org/) at <font color="#3559b0">ByteDance Research</font>. -->
+I am currently an AI researcher working on **embodied AI** with Dr. [Tao Kong](https://www.taokong.org/) at <font color="#3559b0">ByteDance Research</font>.
 
 I received my Master's degree in Artificial Intelligence from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree in Data Science and Big Data Technology also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
@@ -138,9 +138,3 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 
 - *Jun. 2023*. "End-to-End 3D Dense Captioning with Vote2Cap-DETR".
     We present an end-to-end transformer model for localizing and describing objects in parallel within diverse 3D environments. A paper presentation at **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China.
-
-
-
-<!-- # 💻 Internships
-
-- *2020.07 - 2020.10*. Huawei Technologies Shanghai R&D Center, Shanghai, China. -->
