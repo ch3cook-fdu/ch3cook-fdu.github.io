@@ -57,6 +57,7 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 [project](https://meshxl.github.io/) \| [arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
 
 - Propose a family of auto-regressively generative pre-trained foundation models for 3D mesh generation.
+- MeshXL turns a 3D mesh into one unique coordinate sequence, which enables us to simplify our architecture design into a decoder-only transformer model, facilitating an end-to-end training pipeline for large-scale 3D mesh data.
 </div>
 </div>
 
@@ -134,7 +135,7 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 # 💬 Oral Presentations
 
 - *Jul. 2024*. "**MeshXL**: Neural Coordinate Field for Generative 3D Foundation Models".
-    MeshXL **paves the way for scaling up training on large-scale 3D mesh data**. Our **mesh representation** turns a 3D mesh into one unique coordinate sequence, which enables us to simplify our **architecture design** into a decoder-only transformer model, facilitating an **end-to-end training pipeline** for large-scale 3D mesh data.
+    MeshXL paves the way for scaling up training on large-scale 3D mesh data. Our mesh representation turns a 3D mesh into one unique coordinate sequence, which enables us to simplify our architecture design into a decoder-only transformer model, facilitating an end-to-end training pipeline for large-scale 3D mesh data.
     A technical report at **<font color="#74d8f0">mi</font>****<font color="#4ea4dd">HoYo</font>**.
 
 - *Oct. 2023*. "**Vote2Cap-DETR**: A Set-to-Set Perspective Towards 3D Dense Captioning".
