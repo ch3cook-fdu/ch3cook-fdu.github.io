@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Sijin Chen(思锦 陈)"
-description              : "AI researcher focusing on embodied AI. Master and bachelor from Fudan University. Focusing on embodied AI and AIGC."
+description              : "AI researcher focusing on embodied AI and AIGC. Master and bachelor from Fudan University."
 repository               : 
 google_scholar_stats_use_cdn : true
 
@@ -25,7 +25,7 @@ author:
   # avatar           : "images/android-chrome-512x512.png"
   avatar           : "images/bio.png"
   bio              : "ByteDance Research"
-  location         : "Beijing and Shanghai, China"
+  location         : "Beijing & Shanghai, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"

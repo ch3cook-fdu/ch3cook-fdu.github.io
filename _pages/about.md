@@ -73,7 +73,7 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_LL3DA_Visual_Interactive_Instruction_Tuning_for_Omni-3D_Understanding_Reasoning_and_CVPR_2024_paper.pdf) \| [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
 
 - Propose a Large Language 3D Assistant that responds to both visual interactions and textual instructions in complex 3D environments.
-- Please also see our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, which is accepted to <font color="#dd0000">ECCV 2024</font>.
+- 🎉 Please also see our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, which is accepted to <font color="#dd0000">ECCV 2024</font>.
 </div>
 </div>
 
@@ -132,6 +132,10 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 
 
 # 💬 Oral Presentations
+
+- *Jul. 2024*. "**MeshXL**: Neural Coordinate Field for Generative 3D Foundation Models".
+    MeshXL **paves the way for scaling up training on large-scale 3D mesh data**. Our **mesh representation** turns a 3D mesh into one unique coordinate sequence, which enables us to simplify our **architecture design** into a decoder-only transformer model, facilitating an **end-to-end training pipeline** for large-scale 3D mesh data.
+    A technical report at **<font color="#74d8f0">mi</font>****<font color="#4ea4dd">HoYo</font>**.
 
 - *Oct. 2023*. "**Vote2Cap-DETR**: A Set-to-Set Perspective Towards 3D Dense Captioning".
     By treating 3D Dense Captioning as a translation task from a set of object queries into a set of ``box-caption'' pairs, we present a set-to-set perspective towards 3D Dense Captioning. 
