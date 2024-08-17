@@ -56,8 +56,7 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 
 [project](https://meshxl.github.io/) \| [arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
 
-- Propose a family of auto-regressively generative pre-trained foundation models for 3D mesh generation.
-- MeshXL turns a 3D mesh into one unique coordinate sequence, which enables us to simplify our architecture design into a decoder-only transformer model, facilitating an end-to-end training pipeline for large-scale 3D mesh data.
+- MeshXL turns a 3D mesh into one unique coordinate sequence, facilitating an end-to-end training pipeline for large-scale 3D mesh data.
 </div>
 </div>
 
