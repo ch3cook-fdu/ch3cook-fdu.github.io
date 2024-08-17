@@ -105,7 +105,7 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 
 - We address 3D Dense Captioning as a set prediction problem with parallel decoding.
 - The first non-"detect-then-describe" framework for 3D Dense Captioning.
-- 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at ICCV 2023. [[talk]](https://www.youtube.com/watch?v=RLrdi-Yhn1o)
+- 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at <font color="#dd0000">ICCV 2023</font>. [[talk]](https://www.youtube.com/watch?v=RLrdi-Yhn1o)
 </div>
 </div>
 
