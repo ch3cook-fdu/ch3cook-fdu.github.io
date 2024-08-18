@@ -21,7 +21,7 @@ I am currently an AI researcher working on **embodied AI** with Dr. [Tao Kong](h
 
 I received my Master's degree in Artificial Intelligence from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree in Data Science and Big Data Technology also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
-My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
+My research goal is to develop multi-modality systems capable of **understanding**, **reasoning**, **envisioning**, and **manipulating** the 3D world like human.
 
 📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/Sijin Chen's Resume.pdf).
 
@@ -41,7 +41,7 @@ My long-term research goal is to develop vision-language systems that can *compr
 
 # 📝 Selected Publications 
 
-I started my research on exploring <font color="#dd0000">how to use language for better 3D scene understanding</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) and [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999)).
+I started my research from exploring <font color="#dd0000">how to use language for better 3D scene understanding</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) and [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999)).
 Then, as large language models exhibits tremendous generalist potentials, I also explored <font color="#dd0000">whether LLMs can understand 3D</font> ([LL3DA](https://arxiv.org/abs/2311.18651) and [M3DBench](https://arxiv.org/abs/2312.10763)).
 After that, I spent a wonderful half year exploring <font color="#dd0000">whether LLMs can speak 3D</font> ([MeshXL](https://arxiv.org/abs/2405.20853)).
 Currently, I am working on both <font color="#dd0000">embodied AI</font> and <font color="#dd0000">AIGC</font>.
