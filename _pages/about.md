@@ -27,6 +27,7 @@ My research goal is to develop multi-modality systems capable of **understanding
 
 # 🔥 News
 
+- *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection (font color="#dd0000">comming soon</font>).
 - *Jul. 2024*. &nbsp;🎉🎉 Our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, is accepted to <font color="#dd0000">ECCV 2024</font>.
 - *May. 2024*. &nbsp;🎉🎉 We release [MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL), a family of generative 3D foundation models for 3D meshes.
 - *May. 2024*. &nbsp;🎉🎉 I successfully defended my master's thesis! \[[defense slides](presentation/Sijin_Chen_master_thesis_defense.pdf)\]
@@ -47,11 +48,11 @@ After that, I spent a wonderful half year exploring <font color="#dd0000">whethe
 Currently, I am working on both <font color="#dd0000">embodied AI</font> and <font color="#dd0000">AIGC</font>.
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/meshxl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/meshxl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>MeshXL: Neural Coordinate Field for Generative 3D Foundation Models</font>**](https://arxiv.org/abs/2405.20853) \\
-**<font color="#000000">pre-print</font>** | [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL) \\
+**<font color="#dd0000">NeurIPS 2024</font>** | [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL) \\
 **<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/)$^{\dagger}$, Anqi Pang, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Wei Cheng](https://wchengad.github.io/), Yijun Fu, [Fukun Yin](https://fukunyin.github.io/), Yanru Wang, Zhibin Wang, [Chi Zhang](https://icoz69.github.io/), [Jingyi Yu](http://www.yu-jingyi.com/cv/), [Gang Yu](https://www.skicyyu.org/), Bin Fu, [Tao Chen](https://eetchen.github.io/)$^{\ddagger}$
 
 [project](https://meshxl.github.io/) \| [arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
