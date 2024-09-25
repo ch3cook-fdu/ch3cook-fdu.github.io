@@ -27,7 +27,7 @@ My research goal is to develop multi-modality systems capable of **understanding
 
 # 🔥 News
 
-- *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection (font color="#dd0000">comming soon</font>).
+- *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection (<font color="#dd0000">comming soon</font>).
 - *Jul. 2024*. &nbsp;🎉🎉 Our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, is accepted to <font color="#dd0000">ECCV 2024</font>.
 - *May. 2024*. &nbsp;🎉🎉 We release [MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL), a family of generative 3D foundation models for 3D meshes.
 - *May. 2024*. &nbsp;🎉🎉 I successfully defended my master's thesis! \[[defense slides](presentation/Sijin_Chen_master_thesis_defense.pdf)\]
