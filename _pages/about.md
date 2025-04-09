@@ -27,6 +27,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 
 # 🔥 News
 
+- *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that progressively generate SVGs spanning from simple icons to intricate anime characters.
 - *Jan. 2025*. &nbsp;🎉🎉 Our [MeshAnything](https://arxiv.org/abs/2406.10163) [![](https://img.shields.io/github/stars/buaacyw/MeshAnything?style=social)](https://github.com/buaacyw/MeshAnything) is accepted to <font color="#dd0000">ICLR 2025</font>.
 - *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
 - *Jul. 2024*. &nbsp;🎉🎉 Our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, is accepted to <font color="#dd0000">ECCV 2024</font>.
@@ -54,11 +55,11 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 
 [**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
 **<font color="#dd0000">ArXiv Pre-print</font>** | [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG) \\
-[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^*$, [Wei Cheng](https://wchengad.github.io/)$^*$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
+[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^\star$, [Wei Cheng](https://wchengad.github.io/)$^\star$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
 
 [project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG)
 
-- OmniSVG progressively generates SVGs from simple icons to intricate anime characters.
+- OmniSVG progressively generates SVGs spanning from simple icons to intricate anime characters.
 </div>
 </div>
 
