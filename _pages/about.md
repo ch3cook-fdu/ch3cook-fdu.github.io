@@ -23,11 +23,12 @@ I received my Master's degree in Artificial Intelligence from **Fudan University
 
 My long-term research goal is to develop robust and generalized multi-modality systems that can **perceive**, **understand**, and **interact** with the physical world.
 
-📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/Sijin Chen's Resume.pdf).
+📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/chensijin_resume_20250409).
 
 # 🔥 News
 
-- *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection (<font color="#dd0000">comming soon</font>).
+- *Jan. 2025*. &nbsp;🎉🎉 Our [MeshAnything](https://arxiv.org/abs/2406.10163) [![](https://img.shields.io/github/stars/buaacyw/MeshAnything?style=social)](https://github.com/buaacyw/MeshAnything) is accepted to <font color="#dd0000">ICLR 2025</font>.
+- *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
 - *Jul. 2024*. &nbsp;🎉🎉 Our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, is accepted to <font color="#dd0000">ECCV 2024</font>.
 - *May. 2024*. &nbsp;🎉🎉 We release [MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL), a family of generative 3D foundation models for 3D meshes.
 - *May. 2024*. &nbsp;🎉🎉 I successfully defended my master's thesis! \[[defense slides](presentation/Sijin_Chen_master_thesis_defense.pdf)\]
@@ -35,7 +36,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 - *Jan. 2024*. &nbsp;🐧🐧 Join Tencent as a research intern, working on 3D generation. 
 - *Oct. 2023*. &nbsp;🥇🥇 Win the Scan2Cap Challenge at <font color="#dd0000">ICCV 2023</font>. 
-- *Feb. 2023*. &nbsp;🎉🎉 Our [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) paper is accepted to <font color="#dd0000">CVPR 2023</font>. 
+- *Feb. 2023*. &nbsp;🎉🎉 Our [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) is accepted to <font color="#dd0000">CVPR 2023</font>. 
 
 
 
@@ -48,6 +49,21 @@ After that, I spent a wonderful half year exploring <font color="#dd0000">whethe
 Currently, I am working on both <font color="#dd0000">embodied AI</font> and <font color="#dd0000">AIGC</font>.
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv Pre-print</div><img src='images/omnisvg.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
+**<font color="#dd0000">ArXiv Pre-print</font>** | [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG) \\
+[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^*$, [Wei Cheng](https://wchengad.github.io/)$^*$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
+
+[project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG)
+
+- OmniSVG progressively generates SVGs from simple icons to intricate anime characters.
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/meshxl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -58,6 +74,7 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 [project](https://meshxl.github.io/) \| [arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
 
 - MeshXL turns a 3D mesh into one unique coordinate sequence, facilitating an end-to-end training pipeline for large-scale 3D mesh data.
+- 🎉 Please also see our [MeshAnything](https://arxiv.org/abs/2406.10163) [![](https://img.shields.io/github/stars/buaacyw/MeshAnything?style=social)](https://github.com/buaacyw/MeshAnything), a model that mimics human artists in extracting meshes from any 3D representation, which is accepted to <font color="#dd0000">ICLR 2025</font>
 </div>
 </div>
 
