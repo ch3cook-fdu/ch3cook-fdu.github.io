@@ -23,7 +23,7 @@ I received my Master's degree in Artificial Intelligence from **Fudan University
 
 My long-term research goal is to develop robust and generalized multi-modality systems that can **perceive**, **understand**, and **interact** with the physical world.
 
-📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/chensijin_resume_20250409.pdf).
+📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/chensijin_resume_20250426.pdf).
 
 # 🔥 News
 
