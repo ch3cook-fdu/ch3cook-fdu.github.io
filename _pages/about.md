@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently an AI researcher working on **embodied AI** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font>**.
+I am currently an AI researcher working on **embodied AI** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)**.
 
-I received my Master's degree in Artificial Intelligence from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree in Data Science and Big Data Technology also from **Fudan University** (Sep. 2017 - Jun. 2021).
+I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
-My long-term research goal is to develop robust and generalized multi-modality systems that can **perceive**, **understand**, and **interact** with the physical world.
+My long-term research goal is to develop robust and generalized multi-modality systems that can **perceive**, **envision**, and **interact** with the physical world.
 
 📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/chensijin_resume_20250425.pdf).
 
@@ -42,13 +42,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 
 
 
-# 📝 Selected Publications 
-
-I started my research from exploring <font color="#dd0000">how to use language for better 3D scene understanding</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) and [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999)).
-Then, as large language models exhibits tremendous generalist potentials, I also explored <font color="#dd0000">whether LLMs can understand 3D</font> ([LL3DA](https://arxiv.org/abs/2311.18651) and [M3DBench](https://arxiv.org/abs/2312.10763)).
-After that, I spent a wonderful half year exploring <font color="#dd0000">whether LLMs can speak 3D</font> ([MeshXL](https://arxiv.org/abs/2405.20853)).
-Currently, I am working on both <font color="#dd0000">embodied AI</font> and <font color="#dd0000">AIGC</font>.
-
+# 📝 Selected Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv Pre-print</div><img src='images/omnisvg.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -134,6 +128,7 @@ Currently, I am working on both <font color="#dd0000">embodied AI</font> and <fo
 
 # 🥇 Awards and Scholarships
 
+- *Apr. 2025*. Spot Bonus at ByteDance AI-Lab-Research (Breakthrough in new fields, 2025-Q1).
 - *Apr. 2024*. Award for **Outstanding Graduate Student** (rank 1/24).
 - *Oct. 2023*. **1st** place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
 - *Sep. 2023*. **National Scholarship** (rank 1/46).
