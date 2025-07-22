@@ -54,7 +54,6 @@ My long-term research goal is to develop robust and generalized multi-modality s
             autoplay 
             loop 
             muted 
-            playsinline 
             preload="auto"
         >
         </video>
