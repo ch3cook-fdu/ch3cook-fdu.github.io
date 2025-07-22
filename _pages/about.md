@@ -44,7 +44,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 
 # 📝 Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/gr3.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/gr3-full.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>GR-3 Technical Report</font>**](https://arxiv.org/abs/2507.15493) \\
