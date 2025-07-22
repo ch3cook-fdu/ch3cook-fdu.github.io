@@ -61,20 +61,6 @@
             object-fit: cover;
         }
     }
-    
-    .paper-box-video{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        video {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-            max-height: 100%; 
-        }
-    }
-
 
     .paper-box-text{
         max-width: 100%;
@@ -83,13 +69,6 @@
     
     @include breakpoint($medium) {
         .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-video{
             justify-content: left;
             min-width: 200px;
             max-width: 40%;
