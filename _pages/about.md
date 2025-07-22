@@ -45,10 +45,19 @@ My long-term research goal is to develop robust and generalized multi-modality s
 # 📝 Selected Publications
 
 <div class='paper-box'>
-    <div class='paper-box-image'>
+    <div class='paper-box-video'>
         <div>
         <div class="badge">Tech Report</div>
-        <img src='images/GR-3-teaser-video.mp4' alt="sym" width="100%">
+        <video 
+            src='images/GR-3-teaser-video.mp4' 
+            alt="sym" 
+            width="100%"
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            preload="auto"
+        >
         </div>
     </div>
     <div class='paper-box-text' markdown="1">
