@@ -51,7 +51,6 @@ My long-term research goal is to develop robust and generalized multi-modality s
         <video 
             src='images/GR-3-teaser-video.mp4' 
             alt="sym" 
-            width="100%"
             autoplay 
             loop 
             muted 
