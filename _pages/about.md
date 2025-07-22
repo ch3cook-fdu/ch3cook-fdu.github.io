@@ -48,8 +48,8 @@ My long-term research goal is to develop robust and generalized multi-modality s
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>GR-3 Technical Report</font>**](https://arxiv.org/abs/2507.15493) \\
-**<font color="#dd0000">Tech Report</font>** \\
-\[Alphabetical\] Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdong-hu.github.io/), Liqun Huang, [Tao Kong](https://www.taokong.org/), [Hang Li](https://hangli-hl.github.io/), Yifeng Li, Yuxiao Liu, Xiao Ma, Hao Niu, Wenxuan Ou, Wanli Peng, Zeyu Ren, Haixin Shi, Jiawen Tian, Hongtao Wu, Xin Xiao, Yuyang Xiao, Jiafeng Xu, Yichu Yang
+**<font color="#dd0000">Tech Report</font>** \| **<font color="#dd0000">Alphabetical Author List</font>** \\
+Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdong-hu.github.io/), Liqun Huang, [Tao Kong](https://www.taokong.org/), [Hang Li](https://hangli-hl.github.io/), Yifeng Li, Yuxiao Liu, Xiao Ma, Hao Niu, Wenxuan Ou, Wanli Peng, Zeyu Ren, Haixin Shi, Jiawen Tian, Hongtao Wu, Xin Xiao, Yuyang Xiao, Jiafeng Xu, Yichu Yang
 
 [project](https://seed.bytedance.com/GR3) \| [arXiv](https://arxiv.org/abs/2507.15493)
 
