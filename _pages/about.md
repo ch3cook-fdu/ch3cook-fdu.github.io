@@ -53,6 +53,10 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 [project](https://seed.bytedance.com/GR3) \| [arXiv](https://arxiv.org/abs/2507.15493)
 
+- GR-3 strictly follows instructions and generalizes to novel objects and instructions.
+- GR-3 can be efficiently adapted to novel settings with few-shot human trajectories.
+- GR-3 is able to proceed long-horizon and dexterous manipulation tasks.
+
 </div>
 </div>
 
