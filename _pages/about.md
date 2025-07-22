@@ -58,7 +58,6 @@ My long-term research goal is to develop robust and generalized multi-modality s
             playsinline 
             preload="auto"
         >
-        </video>
         </div>
     </div>
     <div class='paper-box-text' markdown="1">
