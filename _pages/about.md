@@ -45,7 +45,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 # 📝 Selected Publications
 
 <div class='paper-box'>
-    <div class='paper-box-image'>
+    <div class='paper-box-video'>
         <div>
         <div class="badge">Tech Report</div>
         <video 
