@@ -53,7 +53,8 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 [project](https://seed.bytedance.com/GR3) \| [arXiv](https://arxiv.org/abs/2507.15493)
 
-
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv Pre-print</div><img src='images/omnisvg.gif' alt="sym" width="100%"></div></div>
@@ -64,7 +65,6 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 [Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^\star$, [Wei Cheng](https://wchengad.github.io/)$^\star$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
 
 [project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG)
-
 
 - OmniSVG progressively generates SVGs spanning from simple icons to intricate anime characters.
 </div>
