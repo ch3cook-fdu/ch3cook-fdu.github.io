@@ -27,7 +27,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 
 # 🔥 News
 
-- *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that generate SVGs. And is open-sourced on [huggingface](https://huggingface.co/OmniSVG)!
+- *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that generate SVGs. Now open-sourced on [huggingface](https://huggingface.co/OmniSVG)!
 - *Jan. 2025*. &nbsp;🎉🎉 Our [MeshAnything](https://arxiv.org/abs/2406.10163) [![](https://img.shields.io/github/stars/buaacyw/MeshAnything?style=social)](https://github.com/buaacyw/MeshAnything) is accepted to <font color="#dd0000">ICLR 2025</font>.
 - *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
 - *Jul. 2024*. &nbsp;🎉🎉 Our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, is accepted to <font color="#dd0000">ECCV 2024</font>.
@@ -48,17 +48,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
     <div class='paper-box-image'>
         <div>
         <div class="badge">Tech Report</div>
-        <video 
-            src='images/GR-3-teaser-video.mp4' 
-            alt="sym" 
-            width="100%" 
-            autoplay 
-            loop 
-            muted 
-            playsinline
-            preload="auto"
-        >
-            browser not supported
+        <img src='images/GR-3-teaser-video.mp4' alt="sym" width="100%">
         </div>
     </div>
     <div class='paper-box-text' markdown="1">
