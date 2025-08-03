@@ -19,7 +19,7 @@ redirect_from:
 
 I am an incoming Ph.D. student at **the University of Hong Kong (HKU-MMLab)** (Sep. 2025 - .), where Prof. [Xihui Liu](https://xh-liu.github.io/) is my advisor.
 
-Currently, I work as an AI researcher working on **embodied AI** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)** (Jul. 2024 - Aug. 2025). I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
+Currently, I work as an researcher working on **embodied generalist policies** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)** (Jul. 2024 - Aug. 2025). I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
 My long-term research goal is to develop robust and generalized multi-modality systems that can **understand**, **generate**, and **interact** with the physical world.
 
@@ -105,7 +105,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_LL3DA_Visual_Interactive_Instruction_Tuning_for_Omni-3D_Understanding_Reasoning_and_CVPR_2024_paper.pdf) \| [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
 
 - Propose a Large Language 3D Assistant that responds to both visual interactions and textual instructions in complex 3D environments.
-- 🎉 Please also see our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D LLMs with multi-modal prompts, which is accepted to <font color="#dd0000">ECCV 2024</font>.
+- 🎉 Please also see our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D language models with multi-modal prompts. Now accepted to <font color="#dd0000">ECCV 2024</font>.
 </div>
 </div>
 
