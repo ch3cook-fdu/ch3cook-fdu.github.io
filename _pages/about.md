@@ -44,7 +44,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 
 # 📝 Selected Publications
 
-My previous research mainly focuses on building language modesl that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">understand</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate).
+My previous research mainly focuses on building language modesl that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate).
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/gr3-full.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
