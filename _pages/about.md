@@ -45,6 +45,7 @@ My long-term research goal is to develop robust and generalized multi-modality s
 
 # 📝 Selected Publications
 
+Please find my full publication list from [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate).
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/gr3-full.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
