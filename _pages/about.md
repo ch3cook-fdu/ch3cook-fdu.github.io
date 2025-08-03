@@ -23,7 +23,7 @@ Currently, I work as an AI researcher working on **embodied AI** with Dr. [Tao K
 
 My long-term research goal is to develop robust and generalized multi-modality systems that can **understand**, **generate**, and **interact** with the physical world.
 
-📣 I am starting a new phase, and I am actively looking for positions for research intern! Please find my resume [here](resume/Sijin_Chen_Resume_20250803.pdf) <font color="#dd0000">--last updated on Aug. 3rd, 2025</font>.
+📣 I am starting a new phase, and I am actively looking for positions for research intern! Please find my resume [here](resume/Sijin_Chen_Resume_20250803.pdf) <font color="#dd0000">--updated on Aug. 3rd, 2025</font>.
 
 # 🔥 News
 
