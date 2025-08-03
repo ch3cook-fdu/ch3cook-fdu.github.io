@@ -17,17 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently an AI researcher working on **embodied AI** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)**.
+I am an incoming Ph.D. student at **the University of Hong Kong(HKU-MMLab)** (Sep. 2025 - .), where Prof. \href{https://xh-liu.github.io/}{Xihui Liu} is my advisor.
 
-I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
+Currently, I work as an AI researcher working on **embodied AI** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)** (Jul. 2024 - Aug. 2025). I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
-My long-term research goal is to develop robust and generalized multi-modality systems that can **perceive**, **envision**, and **interact** with the physical world.
+My long-term research goal is to develop robust and generalized multi-modality systems that can **understand**, **generate**, and **interact** with the physical world.
 
-📣 If you are interested in my previous projects, feel free to check out my resume [here](resume/chensijin_resume_20250425.pdf).
+📣 I am starting a new phase, and I am actively looking for positions for research intern! Please find my resume [here](resume/Sijin_Chen_Resume_20250803.pdf) or my [google scholar](https://scholar.google.com/citations?user=chf7U2cAAAAJ&hl=zh-CN) <font color="#dd0000">--last updated on Aug. 3rd, 2025</font>.
 
 # 🔥 News
 
-- *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\], we make a hell of a [team](images/gr3-team.png)!
+- *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
 - *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that generate SVGs. Now open-sourced on [huggingface](https://huggingface.co/OmniSVG)!
 - *Jan. 2025*. &nbsp;🎉🎉 Our [MeshAnything](https://arxiv.org/abs/2406.10163) [![](https://img.shields.io/github/stars/buaacyw/MeshAnything?style=social)](https://github.com/buaacyw/MeshAnything) is accepted to <font color="#dd0000">ICLR 2025</font>.
 - *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
@@ -45,14 +45,15 @@ My long-term research goal is to develop robust and generalized multi-modality s
 
 # 📝 Selected Publications
 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/gr3-full.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>GR-3 Technical Report</font>**](https://arxiv.org/abs/2507.15493) \\
 **<font color="#dd0000">Tech Report</font>** \| **<font color="#dd0000">Alphabetical Order</font>** \\
-Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdong-hu.github.io/), Liqun Huang, [Tao Kong](https://www.taokong.org/), [Hang Li](https://hangli-hl.github.io/), Yifeng Li, Yuxiao Liu, Xiao Ma, Hao Niu, Wenxuan Ou, Wanli Peng, Zeyu Ren, Haixin Shi, Jiawen Tian, Hongtao Wu, Xin Xiao, Yuyang Xiao, Jiafeng Xu, Yichu Yang
+Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdong-hu.github.io/), Liqun Huang, [Tao Kong](https://www.taokong.org/), [Hang Li](https://hangli-hl.github.io/), Yifeng Li, [Yuxiao Liu](https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en), [Xiao Ma](https://yusufma03.github.io/), Hao Niu, Wenxuan Ou, [Wanli Peng](https://scholar.google.com/citations?user=JOyl7joAAAAJ&hl=en&oi=ao), [Zeyu Ren](https://scholar.google.com/citations?user=-covmygAAAAJ&hl=en&oi=ao), [Haixin Shi](https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en), Jiawen Tian, [Hongtao Wu](https://scholar.google.com/citations?user=7u0TYgIAAAAJ&hl=en&oi=ao), [Xin Xiao](https://scholar.google.com/citations?user=CL-ZEdwAAAAJ&hl=en&oi=ao), Yuyang Xiao, [Jiafeng Xu](https://scholar.google.com/citations?user=GPmUxtIAAAAJ&hl=en&oi=ao), [Yichu Yang](https://scholar.google.com/citations?user=A_oWM24AAAAJ&hl=en)
 
-[project](https://seed.bytedance.com/GR3) \| [arXiv](https://arxiv.org/abs/2507.15493)
+[project](https://seed.bytedance.com/GR3) \| [arXiv](https://arxiv.org/abs/2507.15493) \| [team](images/gr3-team.png)
 
 - GR-3 follows instructions and generalizes to novel objects and concepts.
 - We can adapt GR-3 to novel settings with few-shot human trajectories.
@@ -120,23 +121,10 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 [paper](https://ieeexplore.ieee.org/abstract/document/10496863/) \| [arXiv](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
 
-- Decoupled feature extraction and task decoding for 3D Dense Captioning.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/vote2cap-detr cvpr2023.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**<font size=4>End-to-End 3D Dense Captioning with Vote2Cap-DETR</font>**](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper.html) \\
-**<font color="#dd0000">CVPR 2023</font>** | [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \\
-**<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), [Xin Chen](https://chenxin.tech/), Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
-
-[paper](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper.html) \| [arXiv](https://arxiv.org/abs/2301.02508) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \| [youtube](https://www.youtube.com/watch?v=azR_OvPWYfo)
-
-- We address 3D Dense Captioning as a set prediction problem with parallel decoding.
-- The first non-"detect-then-describe" framework for 3D Dense Captioning.
+- Decoupled localization and captioning feature extraction with parallel task decoding for 3D Dense Captioning.
 - 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at <font color="#dd0000">ICCV 2023</font>. [[talk]](https://www.youtube.com/watch?v=RLrdi-Yhn1o)
+- My preliminary paper, [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), is accepted to <font color="#dd0000">CVPR 2023</font>.
+
 </div>
 </div>
 
@@ -145,7 +133,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 # 🥇 Awards and Scholarships
 
-- *Apr. 2025*. Spot Bonus at ByteDance AI-Lab-Research (Breakthrough in new fields, 2025-Q1).
+- *Apr. 2025*. Spot Bonus at ByteDance AI-Lab-Research (Breakthrough in new fields, 2025-Q1), comes with a [trophie](images/spot_bonus.jpg)😮.
 - *Apr. 2024*. Award for **Outstanding Graduate Student** (rank 1/24).
 - *Oct. 2023*. **1st** place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
 - *Sep. 2023*. **National Scholarship** (rank 1/46).
@@ -158,6 +146,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 # 📖 Educations
 
+- *Sep. 2025 - .*. Ph.D. student at the University of Hong Kong. 
 - *Sep. 2021 - Jun. 2024*. Master student at Fudan University. 
 - *Sep. 2017 - Jun. 2021*. Bachelor student at Fudan University. 
 
