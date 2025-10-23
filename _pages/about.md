@@ -21,7 +21,7 @@ I am a Ph.D. student at **the University of Hong Kong (HKU-MMLab)** (Sep. 2025 -
 
 Previously, I was a researcher working on **generalist robotics** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)** (Jul. 2024 - Aug. 2025). I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
-My long-term research goal is to develop robust and generalized multi-modality systems that can **understand**, **generate**, and **interact** with the physical world.
+I am broadly interested in scalable training methods. My long-term research goal is to develop scalable, robust and generalized multi-modality systems that can **understand**, **generate**, and **interact** with the physical world.
 
 📣 I am starting a new phase, and I am actively looking for positions for research intern!
 
