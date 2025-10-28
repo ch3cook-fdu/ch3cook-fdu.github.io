@@ -24,8 +24,8 @@ author:
   name             : "Sijin Chen(思锦 陈)"
   # avatar           : "images/android-chrome-512x512.png"
   avatar           : "images/bio.png"
-  bio              : "Ph.D. @HKU-MMLab, previous researcher @ByteDance-Seed-Robotics."
-  location         : "Hong Kong, Shanghai, & Beijing"
+  bio              : "Ph.D. @HKU-MMLab"
+  location         : "Hong Kong|Shanghai|Beijing"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"
