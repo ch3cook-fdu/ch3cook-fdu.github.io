@@ -26,7 +26,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 # 🔥 News
 
 - *Feb. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
-- *Feb. 2026*. &nbsp;🎉🎉 [**OmniLottie**](https://openvglab.github.io/OmniLottie/), generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
+- *Feb. 2026*. &nbsp;🎉🎉 [OmniLottie](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie), generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a Top-Seed Research Intern, working on generalist robotics.
 - *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
 - *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model, [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
@@ -52,7 +52,7 @@ I am broadly interested in using language as a medium for understanding, generat
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>GR-3 Technical Report</font>**](https://arxiv.org/abs/2507.15493) \\
-**<font color="#dd0000">Tech Report</font>** \| **<font color="#dd0000">Alphabetical Order</font>** \\
+**<font color="#dd0000">Tech Report</font>** \| **<font color="#dd0000">Alphabetical Order</font>** <span class='show_paper_citations' data='chf7U2cAAAAJ:eQOLeE2rZwMC'></span> \\
 Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdong-hu.github.io/), Liqun Huang, [Tao Kong](https://www.taokong.org/), [Hang Li](https://hangli-hl.github.io/), Yifeng Li, [Yuxiao Liu](https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en), [Xiao Ma](https://yusufma03.github.io/), Hao Niu, Wenxuan Ou, [Wanli Peng](https://scholar.google.com/citations?user=JOyl7joAAAAJ&hl=en&oi=ao), [Zeyu Ren](https://scholar.google.com/citations?user=-covmygAAAAJ&hl=en&oi=ao), [Haixin Shi](https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en), Jiawen Tian, [Hongtao Wu](https://scholar.google.com/citations?user=7u0TYgIAAAAJ&hl=en&oi=ao), [Xin Xiao](https://scholar.google.com/citations?user=CL-ZEdwAAAAJ&hl=en&oi=ao), Yuyang Xiao, [Jiafeng Xu](https://scholar.google.com/citations?user=GPmUxtIAAAAJ&hl=en&oi=ao), [Yichu Yang](https://scholar.google.com/citations?user=A_oWM24AAAAJ&hl=en)
 
 [project](https://seed.bytedance.com/GR3) \| [arXiv](https://arxiv.org/abs/2507.15493) \| [team](images/gr3-team.png)
@@ -71,7 +71,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens</font>**](https://arxiv.org/abs/2603.02138) \\
-**<font color="#dd0000">CVPR 2026</font>** | [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie) \\
+**<font color="#dd0000">CVPR 2026</font>** | [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie) <span class='show_paper_citations' data='chf7U2cAAAAJ:UebtZRa9Y70C'></span> \\
 [Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/), [Wei Cheng](https://wchengad.github.io/)$^{\dagger}$, **<u>Sijin Chen</u>**, Honghao Fu, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), Yujun Cai, [Gang Yu](https://www.skicyyu.org/)$^{\ddagger}$, [Xingjun Ma](http://xingjunma.com/)
 
 [project](https://openvglab.github.io/OmniLottie/) \| [arXiv](https://arxiv.org/abs/2603.02138) \| [github](https://github.com/OpenVGLab/OmniLottie) \| [demo](https://huggingface.co/spaces/OmniLottie/OmniLottie)
@@ -86,7 +86,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
-**<font color="#dd0000">NeurIPS 2025</font>** | [![](https://badgen.net/github/stars/OmniSVG/OmniSVG?icon=github)](https://github.com/OmniSVG/OmniSVG) \\
+**<font color="#dd0000">NeurIPS 2025</font>** | [![](https://badgen.net/github/stars/OmniSVG/OmniSVG?icon=github)](https://github.com/OmniSVG/OmniSVG) <span class='show_paper_citations' data='chf7U2cAAAAJ:W7OEmFMy1HYC'></span> \\
 [Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^\star$, [Wei Cheng](https://wchengad.github.io/)$^\star$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
 
 [project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG) \| [huggingface](https://huggingface.co/OmniSVG)
@@ -101,7 +101,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>MeshXL: Neural Coordinate Field for Generative 3D Foundation Models</font>**](https://arxiv.org/abs/2405.20853) \\
-**<font color="#dd0000">NeurIPS 2024</font>** | [![](https://badgen.net/github/stars/OpenMeshLab/MeshXL?icon=github)](https://github.com/OpenMeshLab/MeshXL) \\
+**<font color="#dd0000">NeurIPS 2024</font>** | [![](https://badgen.net/github/stars/OpenMeshLab/MeshXL?icon=github)](https://github.com/OpenMeshLab/MeshXL) <span class='show_paper_citations' data='chf7U2cAAAAJ:UeHWp8X0CEIC'></span> \\
 **<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/)$^{\dagger}$, Anqi Pang, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Wei Cheng](https://wchengad.github.io/), Yijun Fu, [Fukun Yin](https://fukunyin.github.io/), Yanru Wang, Zhibin Wang, [Chi Zhang](https://icoz69.github.io/), [Jingyi Yu](http://www.yu-jingyi.com/cv/), [Gang Yu](https://www.skicyyu.org/), Bin Fu, [Tao Chen](https://eetchen.github.io/)$^{\ddagger}$
 
 [project](https://meshxl.github.io/) \| [arXiv](https://arxiv.org/abs/2405.20853) \| [github](https://github.com/OpenMeshLab/MeshXL)
@@ -118,7 +118,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</font>**](https://arxiv.org/abs/2311.18651) \\
-**<font color="#dd0000">CVPR 2024</font>** | [![](https://badgen.net/github/stars/Open3DA/LL3DA?icon=github)](https://github.com/Open3DA/LL3DA) \\
+**<font color="#dd0000">CVPR 2024</font>** | [![](https://badgen.net/github/stars/Open3DA/LL3DA?icon=github)](https://github.com/Open3DA/LL3DA) <span class='show_paper_citations' data='chf7U2cAAAAJ:2osOgNQ5qMEC'></span> \\
 **<u>Sijin Chen</u>**, [Xin Chen](https://chenxin.tech/)$^{\dagger}$, [Chi Zhang](https://icoz69.github.io/), Mingsheng Li, [Gang Yu](https://www.skicyyu.org/), [Hao Fei](http://haofei.vip/), [Hongyuan Zhu](https://hongyuanzhu.github.io/), Jiayuan Fan, [Tao Chen](https://eetchen.github.io/)$^{\ddagger}$
 
 [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_LL3DA_Visual_Interactive_Instruction_Tuning_for_Omni-3D_Understanding_Reasoning_and_CVPR_2024_paper.pdf) \| [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
@@ -135,7 +135,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</font>**](https://arxiv.org/abs/2309.02999) \\
-**<font color="#dd0000">T-PAMI 2024</font>** | [![](https://badgen.net/github/stars/ch3cook-fdu/Vote2Cap-DETR?icon=github)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \\
+**<font color="#dd0000">T-PAMI 2024</font>** | [![](https://badgen.net/github/stars/ch3cook-fdu/Vote2Cap-DETR?icon=github)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) <span class='show_paper_citations' data='chf7U2cAAAAJ:9yKSN-GCB0IC'></span> \\
 **<u>Sijin Chen</u>**, [Hongyuan Zhu](https://hongyuanzhu.github.io/), Mingsheng Li, [Xin Chen](https://chenxin.tech/), Peng Guo, Yinjie Lei, [Gang Yu](https://www.skicyyu.org/), Taihao Li, [Tao Chen](https://eetchen.github.io/)$^{\dagger}$
 
 [paper](https://ieeexplore.ieee.org/abstract/document/10496863/) \| [arXiv](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)

@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Sijin Chen(思锦 陈)"
 description              : "Generalist Robotics and Generative Models"
-repository               : 
+repository               : "ch3cook-fdu/ch3cook-fdu.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
