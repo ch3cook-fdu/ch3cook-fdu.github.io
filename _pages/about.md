@@ -25,8 +25,8 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 # 🔥 News
 
-- *Feb. 2026*. &nbsp;📣📣 We are hosting the **ScaleBot Workshop**, the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
-- *Feb. 2026*. &nbsp;🎉🎉 **OmniLottie**, generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
+- *Feb. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
+- *Feb. 2026*. &nbsp;🎉🎉 [**OmniLottie**](https://openvglab.github.io/OmniLottie/), generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a Top-Seed Research Intern, working on generalist robotics.
 - *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
 - *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model, [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
@@ -48,7 +48,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 I am broadly interested in using language as a medium for understanding, generating, and interacting with the physical world. My research builds models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate). (\*: equal contribution, †: project lead, ‡: corresponding author)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/gr3-full.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><video src='images/gr3-full.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>GR-3 Technical Report</font>**](https://arxiv.org/abs/2507.15493) \\
@@ -66,7 +66,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/omnisvg.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><video src='images/omnisvg.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
@@ -80,7 +80,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/omnilottie.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><video src='images/omnilottie.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens</font>**](https://arxiv.org/abs/2603.02138) \\
@@ -96,7 +96,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/meshxl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/meshxl.png' alt="sym" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>MeshXL: Neural Coordinate Field for Generative 3D Foundation Models</font>**](https://arxiv.org/abs/2405.20853) \\
@@ -113,7 +113,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/LL3DA.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><video src='images/LL3DA.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</font>**](https://arxiv.org/abs/2311.18651) \\
@@ -130,7 +130,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2024</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2024</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</font>**](https://arxiv.org/abs/2309.02999) \\
@@ -188,14 +188,18 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 # 🧑‍🏫 Academic Events
 
-- **ScaleBot: The First Workshop on Scalable Robot Learning Systems** at <font color="#dd0000">CVPR 2026</font>.
-    **<u>Sijin Chen</u>**, Shenyuan Gao, Yang Gao, Yingdong Hu, Xihui Liu, Yuxiang Lu, Philip Torr, Jianfei Yang, Zhenfei Yin, Hengshuang Zhao, Yuke Zhu. \\
-    We hope to elicit discussions covering scalable data collection, training recipes, model architectures, system integration, and evaluation of general-purpose robots. \\
-    Invited speakers: 
-    - [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (UCB & Physical Intelligence)
-    - [Jason Ma](https://jasonma2016.github.io/) (Dyna-Robotics)
-    - [Wayne Wu](https://wywu.github.io/) (UCLA)
-    - [Chuan Wen](https://alvinwen428.github.io/) (SJTU)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href="https://scalebot-workshop.github.io/"><img src='images/Scalebot-Workshop.png' alt="ScaleBot Workshop" width="100%" loading="lazy" decoding="async"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>ScaleBot: The First Workshop on Scalable Robot Learning Systems</font>**](https://scalebot-workshop.github.io/) \\
+**<font color="#dd0000">CVPR 2026 Workshop</font>** | [website](https://scalebot-workshop.github.io/) \\
+**<u>Sijin Chen</u>**, Shenyuan Gao, Yang Gao, Yingdong Hu, Xihui Liu, Yuxiang Lu, Philip Torr, Jianfei Yang, Zhenfei Yin, Hengshuang Zhao, Yuke Zhu.
+
+As the **primary organizer**, I hope to elicit discussions covering scalable data collection, training recipes, model architectures, system integration, and evaluation of general-purpose robots.
+
+Invited speakers: [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (UCB & Physical Intelligence), [Jason Ma](https://jasonma2016.github.io/) (Dyna-Robotics), [Wayne Wu](https://wywu.github.io/) (UCLA), and [Chuan Wen](https://alvinwen428.github.io/) (SJTU).
+</div>
+</div>
 
 
 
@@ -212,6 +216,6 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 # 🛎 Academic Services
 
-- **Workshop Organizer**: primary organizer of the **ScaleBot Workshop** at CVPR 2026.
+- **Workshop Organizer**: primary organizer of the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/) at CVPR 2026.
 - **Conference Reviewer**: CVPR 2026, NeurIPS (2024, 2025), ICCV 2025, ICLR 2025, ICML (2025, 2026).
 - **Journal Reviewer**: IJCV.

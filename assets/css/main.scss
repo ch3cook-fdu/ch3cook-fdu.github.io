@@ -64,8 +64,9 @@
         order: 2;
         overflow: hidden;
         border-radius: 8px;
-        img {
+        img, video {
             max-width: 400px;
+            width: 100%;
             border-radius: 8px;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
             object-fit: cover;
@@ -73,7 +74,8 @@
         }
     }
 
-    &:hover .paper-box-image img {
+    &:hover .paper-box-image img,
+    &:hover .paper-box-image video {
         transform: scale(1.03);
     }
 
