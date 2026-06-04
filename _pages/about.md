@@ -67,20 +67,6 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><video src='images/omnisvg.mp4' poster='images/omnisvg-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
-**<font color="#dd0000">NeurIPS 2025</font>** | [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG) \\
-[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^\star$, [Wei Cheng](https://wchengad.github.io/)$^\star$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
-
-[project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG) \| [huggingface](https://huggingface.co/OmniSVG)
-
-- OmniSVG progressively generates SVGs spanning from simple icons to intricate anime characters.
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><video src='images/omnilottie.mp4' poster='images/omnilottie-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -92,6 +78,20 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 - OmniLottie generates editable, resolution-independent vector animations in Lottie JSON from interleaved text, image, and video instructions.
 - A dedicated Lottie tokenizer flattens hierarchical JSON into structured function-call tokens, enabling stable and controllable generation via next-token prediction.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><video src='images/omnisvg.mp4' poster='images/omnisvg-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
+**<font color="#dd0000">NeurIPS 2025</font>** | [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG) \\
+[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^\star$, [Wei Cheng](https://wchengad.github.io/)$^\star$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
+
+[project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG) \| [huggingface](https://huggingface.co/OmniSVG)
+
+- OmniSVG progressively generates SVGs spanning from simple icons to intricate anime characters.
 </div>
 </div>
 
