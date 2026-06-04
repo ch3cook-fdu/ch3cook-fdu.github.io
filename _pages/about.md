@@ -19,14 +19,16 @@ redirect_from:
 
 I am a Ph.D. student at **the University of Hong Kong (HKU-MMLab)** (Sep. 2025 - .), where Prof. [Xihui Liu](https://xh-liu.github.io/) is my advisor.
 
-Previously, I was a researcher working on **generalist robotics** with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)** (Jul. 2024 - Aug. 2025). I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
+Previously, I spent a wonderful year working on **generalist robotics** as a full-time researcher with Dr. [Tao Kong](https://www.taokong.org/) at **<font color="#3559b0">ByteDance Research</font> (Seed-Robotics)** (Jul. 2024 - Aug. 2025). I received my Master's degree from **Fudan University** (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree also from **Fudan University** (Sep. 2017 - Jun. 2021).
 
-I am broadly interested in scalable training methods. My long-term research goal is to develop scalable, robust and generalized multi-modality systems that can **understand**, **generate**, and **interact** with the physical world.
-
-📣 I am starting a new phase, and I am actively looking for positions for research intern!
+I am broadly interested in scalable training methods, and my work spans **generalist embodied systems**, **generative models**, and **multi-modality**. My long-term research goal is to develop scalable, robust and generalized multi-modality systems that can **understand**, **generate**, and **interact** with the physical world. Outside my research, I love sports and music.
 
 # 🔥 News
 
+- *Feb. 2026*. &nbsp;📣📣 We are hosting the **ScaleBot Workshop**, the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
+- *Feb. 2026*. &nbsp;🎉🎉 **OmniLottie**, generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
+- *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a Top-Seed Research Intern, working on generalist robotics.
+- *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
 - *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model, [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
 - *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that generate SVGs. Now accepted to <font color="#dd0000">NeurIPS 2025</font>!
 - *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
@@ -44,7 +46,7 @@ I am broadly interested in scalable training methods. My long-term research goal
 
 # 📝 Selected Publications
 
-My previous research mainly focuses on building language models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate).
+I am broadly interested in using language as a medium for understanding, generating, and interacting with the physical world. My research builds models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate). (\*: equal contribution, †: project lead, ‡: corresponding author)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/gr3-full.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -58,12 +60,13 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 - GR-3 follows instructions and generalizes to novel objects and concepts.
 - We can adapt GR-3 to novel settings with few-shot human trajectories.
 - GR-3 is able to proceed long-horizon and dexterous manipulation tasks.
+- 🎉 Please also see our **FALCON**, a VLA model with robust 3D spatial perception grounded in spatial foundation priors, accepted to <font color="#dd0000">ICLR 2026</font>.
 
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv Pre-print</div><img src='images/omnisvg.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/omnisvg.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
@@ -73,6 +76,21 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 [project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG) \| [huggingface](https://huggingface.co/OmniSVG)
 
 - OmniSVG progressively generates SVGs spanning from simple icons to intricate anime characters.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/omnilottie.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens</font>**](https://arxiv.org/abs/2603.02138) \\
+**<font color="#dd0000">CVPR 2026</font>** | [![](https://img.shields.io/github/stars/OpenVGLab/OmniLottie?style=social)](https://github.com/OpenVGLab/OmniLottie) \\
+[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/), [Wei Cheng](https://wchengad.github.io/)$^{\dagger}$, **<u>Sijin Chen</u>**, Honghao Fu, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), Yujun Cai, [Gang Yu](https://www.skicyyu.org/)$^{\ddagger}$, [Xingjun Ma](http://xingjunma.com/)
+
+[project](https://openvglab.github.io/OmniLottie/) \| [arXiv](https://arxiv.org/abs/2603.02138) \| [github](https://github.com/OpenVGLab/OmniLottie) \| [demo](https://huggingface.co/spaces/OmniLottie/OmniLottie)
+
+- OmniLottie generates editable, resolution-independent vector animations in Lottie JSON from interleaved text, image, and video instructions.
+- A dedicated Lottie tokenizer flattens hierarchical JSON into structured function-call tokens, enabling stable and controllable generation via next-token prediction.
 </div>
 </div>
 
@@ -156,7 +174,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 - *Jul. 2024*. "**MeshXL**: Neural Coordinate Field for Generative 3D Foundation Models".
     MeshXL paves the way for scaling up training on large-scale 3D mesh data. Our mesh representation turns a 3D mesh into one unique coordinate sequence, which enables us to simplify our architecture design into a decoder-only transformer model, facilitating an end-to-end training pipeline for large-scale 3D mesh data.
-    A technical report at **<font color="#74d8f0">mi</font>****<font color="#4ea4dd">HoYo</font>**.
+    Technical reports at **<font color="#74d8f0">mi</font>****<font color="#4ea4dd">HoYo</font>** and **AnySyn3D**.
 
 - *Oct. 2023*. "**Vote2Cap-DETR**: A Set-to-Set Perspective Towards 3D Dense Captioning".
     By treating 3D Dense Captioning as a translation task from a set of object queries into a set of ``box-caption'' pairs, we present a set-to-set perspective towards 3D Dense Captioning. 
@@ -164,3 +182,36 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 - *Jun. 2023*. "End-to-End 3D Dense Captioning with Vote2Cap-DETR".
     We present an end-to-end transformer model for localizing and describing objects in parallel within diverse 3D environments. A paper presentation at **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China.
+
+
+
+
+# 🧑‍🏫 Academic Events
+
+- **ScaleBot: The First Workshop on Scalable Robot Learning Systems** at <font color="#dd0000">CVPR 2026</font>.
+    **<u>Sijin Chen</u>**, Shenyuan Gao, Yang Gao, Yingdong Hu, Xihui Liu, Yuxiang Lu, Philip Torr, Jianfei Yang, Zhenfei Yin, Hengshuang Zhao, Yuke Zhu. \\
+    We hope to elicit discussions covering scalable data collection, training recipes, model architectures, system integration, and evaluation of general-purpose robots. \\
+    Invited speakers: 
+    - [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (UCB & Physical Intelligence)
+    - [Jason Ma](https://jasonma2016.github.io/) (Dyna-Robotics)
+    - [Wayne Wu](https://wywu.github.io/) (UCLA)
+    - [Chuan Wen](https://alvinwen428.github.io/) (SJTU)
+
+
+
+
+# 🧑‍🎓 Mentorship
+
+- **Mingsheng Li** (researcher @ Alibaba Qwen) — M3DBench, 3DET-Mamba, and WI3D (2022 - 2024).
+- **Yiying Yang** (Ph.D. @ Fudan University) — OmniSVG and OmniLottie (2024 - .).
+- **Yue Su** (incoming Ph.D. @ University of Hong Kong) — DSPv2 (2024 - .).
+- **Zhengshen Zhang** (Ph.D. @ National University of Singapore) — FALCON (2024 - .).
+
+
+
+
+# 🛎 Academic Services
+
+- **Workshop Organizer**: primary organizer of the **ScaleBot Workshop** at CVPR 2026.
+- **Conference Reviewer**: CVPR 2026, NeurIPS (2024, 2025), ICCV 2025, ICLR 2025, ICML (2025, 2026).
+- **Journal Reviewer**: IJCV.

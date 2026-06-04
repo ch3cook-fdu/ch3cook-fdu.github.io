@@ -18,5 +18,11 @@ main:
   - title: "Oral Presentations"
     url: "/#-oral-presentations"
 
-  # - title: "Internships"
-  #   url: "/#-internships"
+  - title: "Academic Events"
+    url: "/#-academic-events"
+
+  - title: "Mentorship"
+    url: "/#-mentorship"
+
+  - title: "Academic Services"
+    url: "/#-academic-services"
