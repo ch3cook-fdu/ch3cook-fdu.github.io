@@ -48,7 +48,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 I am broadly interested in using language as a medium for understanding, generating, and interacting with the physical world. My research builds models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate). (\*: equal contribution, †: project lead, ‡: corresponding author)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><video src='images/gr3-full.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><video src='images/gr3-full.mp4' poster='images/gr3-full-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>GR-3 Technical Report</font>**](https://arxiv.org/abs/2507.15493) \\
@@ -60,13 +60,14 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 - GR-3 follows instructions and generalizes to novel objects and concepts.
 - We can adapt GR-3 to novel settings with few-shot human trajectories.
 - GR-3 is able to proceed long-horizon and dexterous manipulation tasks.
-- 🎉 Please also see our **FALCON**, a VLA model with robust 3D spatial perception grounded in spatial foundation priors, accepted to <font color="#dd0000">ICLR 2026</font>.
+- I am in charge of the <font color="#dd0000">multi-modal</font> and <font color="#dd0000">cross-embodiment</font> co-training part (PPA).
+- 🎉 Please also see our [**FALCON**](https://falcon-vla.github.io/), a VLA model with robust 3D spatial perception grounded in spatial foundation priors, accepted to <font color="#dd0000">ICLR 2026</font>.
 
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><video src='images/omnisvg.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><video src='images/omnisvg.mp4' poster='images/omnisvg-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
@@ -80,7 +81,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><video src='images/omnilottie.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><video src='images/omnilottie.mp4' poster='images/omnilottie-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens</font>**](https://arxiv.org/abs/2603.02138) \\
@@ -113,7 +114,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><video src='images/LL3DA.mp4' width="100%" autoplay loop muted playsinline preload="metadata"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><video src='images/LL3DA.mp4' poster='images/LL3DA-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</font>**](https://arxiv.org/abs/2311.18651) \\
@@ -188,7 +189,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 # 🧑‍🏫 Academic Events
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href="https://scalebot-workshop.github.io/"><img src='images/Scalebot-Workshop.png' alt="ScaleBot Workshop" width="100%" loading="lazy" decoding="async"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href="https://scalebot-workshop.github.io/"><img src='images/Scalebot-Workshop.png' alt="ScaleBot Workshop" style="max-width:240px;width:100%;height:auto;" loading="lazy" decoding="async"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>ScaleBot: The First Workshop on Scalable Robot Learning Systems</font>**](https://scalebot-workshop.github.io/) \\
@@ -197,7 +198,11 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 As the **primary organizer**, I hope to elicit discussions covering scalable data collection, training recipes, model architectures, system integration, and evaluation of general-purpose robots.
 
-Invited speakers: [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (UCB & Physical Intelligence), [Jason Ma](https://jasonma2016.github.io/) (Dyna-Robotics), [Wayne Wu](https://wywu.github.io/) (UCLA), and [Chuan Wen](https://alvinwen428.github.io/) (SJTU).
+Invited speakers: 
+- [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (UCB & Physical Intelligence),
+- [Jason Ma](https://jasonma2016.github.io/) (Dyna-Robotics), 
+- [Wayne Wu](https://wywu.github.io/) (UCLA), and 
+- [Chuan Wen](https://alvinwen428.github.io/) (SJTU).
 </div>
 </div>
 
@@ -209,7 +214,7 @@ Invited speakers: [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (
 - **Mingsheng Li** (researcher @ Alibaba Qwen) — M3DBench, 3DET-Mamba, and WI3D (2022 - 2024).
 - **Yiying Yang** (Ph.D. @ Fudan University) — OmniSVG and OmniLottie (2024 - .).
 - **Yue Su** (incoming Ph.D. @ University of Hong Kong) — DSPv2 (2024 - .).
-- **Zhengshen Zhang** (Ph.D. @ National University of Singapore) — FALCON (2024 - .).
+- **Zhengshen Zhang** (Ph.D. @ National University of Singapore) — [FALCON](https://falcon-vla.github.io/) (2024 - .).
 
 
 
@@ -219,3 +224,25 @@ Invited speakers: [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (
 - **Workshop Organizer**: primary organizer of the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/) at CVPR 2026.
 - **Conference Reviewer**: CVPR 2026, NeurIPS (2024, 2025), ICCV 2025, ICLR 2025, ICML (2025, 2026).
 - **Journal Reviewer**: IJCV.
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var vids = document.querySelectorAll('.paper-box-image video');
+  if (!('IntersectionObserver' in window)) {
+    vids.forEach(function (v) { v.play().catch(function(){}); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      var v = e.target;
+      if (e.isIntersecting) {
+        if (v.getAttribute('preload') === 'none') { v.setAttribute('preload', 'auto'); v.load(); }
+        v.play().catch(function () {});
+      } else {
+        v.pause();
+      }
+    });
+  }, { rootMargin: '300px 0px' });
+  vids.forEach(function (v) { io.observe(v); });
+});
+</script>
