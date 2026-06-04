@@ -62,8 +62,7 @@
         display: flex;
         width: 100%;
         order: 2;
-        overflow: hidden;
-        border-radius: 8px;
+        position: relative;
         img, video {
             max-width: 400px;
             width: 100%;
@@ -122,6 +121,7 @@ h1 {
 .badge {
     padding: 0.25rem 0.85rem;
     position: absolute;
+    z-index: 5;
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
