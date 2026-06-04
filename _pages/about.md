@@ -194,9 +194,9 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 [**<font size=4>ScaleBot: The First Workshop on Scalable Robot Learning Systems</font>**](https://scalebot-workshop.github.io/) \\
 **<font color="#dd0000">CVPR 2026 Workshop</font>** | [website](https://scalebot-workshop.github.io/) \\
-**<u>Sijin Chen</u>**, Shenyuan Gao, Yang Gao, Yingdong Hu, Xihui Liu, Yuxiang Lu, Philip Torr, Jianfei Yang, Zhenfei Yin, Hengshuang Zhao, Yuke Zhu.
+**<u>Sijin Chen</u>**, [Shenyuan Gao](https://github.com/Little-Podi), [Yang Gao](https://yang-gao.weebly.com/), [Yingdong Hu](https://yingdong-hu.github.io/), [Xihui Liu](https://xh-liu.github.io/), [Yuxiang Lu](https://innovator-zero.github.io/), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Jianfei Yang](https://marsyang.site/), [Zhenfei Yin](https://yinzhenfei.github.io/), [Hengshuang Zhao](https://i.cs.hku.hk/~hszhao/), [Yuke Zhu](https://yukezhu.me/).
 
-As the **primary organizer**, I hope to elicit discussions covering scalable data collection, training recipes, model architectures, system integration, and evaluation of general-purpose robots.
+**Primary organizer**. We hope to elicit discussions covering scalable data collection, training recipes, model architectures, system integration, and evaluation of general-purpose robots.
 
 Invited speakers: 
 - [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (UCB & Physical Intelligence),
