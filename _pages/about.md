@@ -30,16 +30,16 @@ I am broadly interested in scalable training methods, and my work spans **genera
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a Top-Seed Research Intern, working on generalist robotics.
 - *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
 - *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model, [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
-- *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://img.shields.io/github/stars/OmniSVG/OmniSVG?style=social)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that generate SVGs. Now accepted to <font color="#dd0000">NeurIPS 2025</font>!
-- *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
+- *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263), a family of VLMs that generate SVGs. Now accepted to <font color="#dd0000">NeurIPS 2025</font>!
+- *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
 - *Jul. 2024*. &nbsp;🎉🎉 I joined **<font color="#3559b0">ByteDance Research</font>** as a full-time researcher, working on generalist robotics.
-- *May. 2024*. &nbsp;🎉🎉 We release [MeshXL](https://arxiv.org/abs/2405.20853) [![](https://img.shields.io/github/stars/OpenMeshLab/MeshXL?style=social)](https://github.com/OpenMeshLab/MeshXL), a family of generative 3D foundation models for 3D meshes.
+- *May. 2024*. &nbsp;🎉🎉 We release [MeshXL](https://arxiv.org/abs/2405.20853), a family of generative 3D foundation models for 3D meshes.
 - *May. 2024*. &nbsp;🎉🎉 I successfully defended my master's thesis! \[[defense slides](presentation/Sijin_Chen_master_thesis_defense.pdf)\]
-- *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>. 
-- *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
+- *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) is accepted to <font color="#dd0000">T-PAMI 2024</font>. 
+- *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 - *Jan. 2024*. &nbsp;🐧🐧 I joined **<font color="#3559b0">Tencent</font>** as a research intern, working on 3D generation. 
 - *Oct. 2023*. &nbsp;🥇🥇 Win the Scan2Cap Challenge at <font color="#dd0000">ICCV 2023</font>. 
-- *Feb. 2023*. &nbsp;🎉🎉 Our [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) is accepted to <font color="#dd0000">CVPR 2023</font>. 
+- *Feb. 2023*. &nbsp;🎉🎉 Our [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) is accepted to <font color="#dd0000">CVPR 2023</font>. 
 
 
 
