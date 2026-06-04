@@ -72,7 +72,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 [**<font size=4>OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens</font>**](https://arxiv.org/abs/2603.02138) \\
 **<font color="#dd0000">CVPR 2026</font>** | [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie) <span class='show_paper_citations' data='chf7U2cAAAAJ:UebtZRa9Y70C'></span> \\
-[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/), [Wei Cheng](https://wchengad.github.io/)$^{\dagger}$, **<u>Sijin Chen</u>**, Honghao Fu, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), Yujun Cai, [Gang Yu](https://www.skicyyu.org/)$^{\ddagger}$, [Xingjun Ma](http://xingjunma.com/)
+[Yiying Yang](https://yiyingyang12.github.io/), [Wei Cheng](https://wchengad.github.io/)$^{\dagger}$, **<u>Sijin Chen</u>**, Honghao Fu, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), Yujun Cai, [Gang Yu](https://www.skicyyu.org/)$^{\ddagger}$, [Xingjun Ma](http://xingjunma.com/)
 
 [project](https://openvglab.github.io/OmniLottie/) \| [arXiv](https://arxiv.org/abs/2603.02138) \| [github](https://github.com/OpenVGLab/OmniLottie) \| [demo](https://huggingface.co/spaces/OmniLottie/OmniLottie)
 
@@ -87,7 +87,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 [**<font size=4>OmniSVG: A Unified Scalable Vector Graphics Generation Model</font>**](https://arxiv.org/abs/2504.06263) \\
 **<font color="#dd0000">NeurIPS 2025</font>** | [![](https://badgen.net/github/stars/OmniSVG/OmniSVG?icon=github)](https://github.com/OmniSVG/OmniSVG) <span class='show_paper_citations' data='chf7U2cAAAAJ:W7OEmFMy1HYC'></span> \\
-[Yiying Yang](https://yiyingyang12.github.io/yiyingyang.github.io/)$^\star$, [Wei Cheng](https://wchengad.github.io/)$^\star$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
+[Yiying Yang](https://yiyingyang12.github.io/)$^\star$, [Wei Cheng](https://wchengad.github.io/)$^\star$, **<u>Sijin Chen</u>**, [Xianfang Zeng](https://april.zju.edu.cn/team/xianfang-zeng/), [Jiaxu Zhang](https://kebii.github.io/), [Liao Wang](https://aoliao12138.github.io/), [Gang Yu](https://www.skicyyu.org/), [Xinjun Ma](http://xingjunma.com/), [Yu-Gang Jiang](https://fvl.fudan.edu.cn/)
 
 [project](https://omnisvg.github.io/) \| [arXiv](https://arxiv.org/abs/2504.06263) \| [github](https://github.com/OmniSVG/OmniSVG) \| [huggingface](https://huggingface.co/OmniSVG)
 
@@ -212,7 +212,7 @@ Invited speakers:
 # 🧑‍🎓 Mentorship
 
 - [**Mingsheng Li**](https://msheng-lee.github.io/) (researcher @ Alibaba Qwen) — [M3DBench](https://m3dbench.github.io/), 3DET-Mamba, and WI3D (2022 - 2024).
-- [**Yiying Yang**](https://yiyingyang12.github.io/yiyingyang.github.io/) (Ph.D. @ Fudan University) — [OmniSVG](https://omnisvg.github.io/) and [OmniLottie](https://openvglab.github.io/OmniLottie/) (2024 - .).
+- [**Yiying Yang**](https://yiyingyang12.github.io/) (Ph.D. @ Fudan University) — [OmniSVG](https://omnisvg.github.io/) and [OmniLottie](https://openvglab.github.io/OmniLottie/) (2024 - .).
 - [**Yue Su**](https://selen-suyue.github.io/) (incoming Ph.D. @ University of Hong Kong) — [DSPv2](https://selen-suyue.github.io/DSPv2Net/) (2024 - .).
 - [**Zhengshen Zhang**](https://github.com/Trav1slaflame) (Ph.D. @ National University of Singapore) — [FALCON](https://falcon-vla.github.io/) (2024 - .).
 
