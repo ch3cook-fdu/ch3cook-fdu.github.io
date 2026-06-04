@@ -142,7 +142,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 - Decoupled localization and captioning feature extraction with parallel task decoding for 3D Dense Captioning.
 - 🥇 Winner of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at <font color="#dd0000">ICCV 2023</font>. [[talk]](https://www.youtube.com/watch?v=RLrdi-Yhn1o)
-- My preliminary paper, [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), is accepted to <font color="#dd0000">CVPR 2023</font>.
+- My preliminary paper, [Vote2Cap-DETR](https://arxiv.org/abs/2301.02508) [![](https://badgen.net/github/stars/ch3cook-fdu/Vote2Cap-DETR?icon=github)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">CVPR 2023</font>. <span class='show_paper_citations' data='chf7U2cAAAAJ:u5HHmVD_uO8C'></span>
 
 </div>
 </div>
