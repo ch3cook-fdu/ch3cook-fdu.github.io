@@ -189,7 +189,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 
 # 🧑‍🏫 Academic Events
 
-<div class='paper-box'><div class='paper-box-image'><div style="margin:0 auto;"><div class="badge">CVPR 2026</div><a href="https://scalebot-workshop.github.io/"><img src='images/Scalebot-Workshop.png' alt="ScaleBot Workshop" style="max-width:240px;width:100%;height:auto;" loading="lazy" decoding="async"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href="https://scalebot-workshop.github.io/"><img src='images/Scalebot-Workshop.png' alt="ScaleBot Workshop" style="max-width:240px;width:100%;height:auto;" loading="lazy" decoding="async"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>ScaleBot: The First Workshop on Scalable Robot Learning Systems</font>**](https://scalebot-workshop.github.io/) \\
