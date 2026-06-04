@@ -211,10 +211,10 @@ Invited speakers:
 
 # 🧑‍🎓 Mentorship
 
-- **Mingsheng Li** (researcher @ Alibaba Qwen) — M3DBench, 3DET-Mamba, and WI3D (2022 - 2024).
-- **Yiying Yang** (Ph.D. @ Fudan University) — OmniSVG and OmniLottie (2024 - .).
-- **Yue Su** (incoming Ph.D. @ University of Hong Kong) — DSPv2 (2024 - .).
-- **Zhengshen Zhang** (Ph.D. @ National University of Singapore) — [FALCON](https://falcon-vla.github.io/) (2024 - .).
+- [**Mingsheng Li**](https://msheng-lee.github.io/) (researcher @ Alibaba Qwen) — M3DBench, 3DET-Mamba, and WI3D (2022 - 2024).
+- [**Yiying Yang**](https://yiyingyang12.github.io/yiyingyang.github.io/) (Ph.D. @ Fudan University) — OmniSVG and OmniLottie (2024 - .).
+- [**Yue Su**](https://selen-suyue.github.io/) (incoming Ph.D. @ University of Hong Kong) — DSPv2 (2024 - .).
+- [**Zhengshen Zhang**](https://github.com/Trav1slaflame) (Ph.D. @ National University of Singapore) — [FALCON](https://falcon-vla.github.io/) (2024 - .).
 
 
 
