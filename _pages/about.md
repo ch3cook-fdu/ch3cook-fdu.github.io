@@ -25,7 +25,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 # 🔥 News
 
-- *Feb. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
+- *Jun. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
 - *Feb. 2026*. &nbsp;🎉🎉 [OmniLottie](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie), generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a Top-Seed Research Intern, working on generalist robotics.
 - *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
@@ -60,7 +60,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 - GR-3 follows instructions and generalizes to novel objects and concepts.
 - We can adapt GR-3 to novel settings with few-shot human trajectories.
 - GR-3 is able to proceed long-horizon and dexterous manipulation tasks.
-- I am in charge of the <font color="#dd0000">multi-modal</font> and <font color="#dd0000">cross-embodiment</font> co-training part (PPA).
+- I am in charge of the <font color="#dd0000">multi-modal</font> and <font color="#dd0000">cross-embodiment</font> co-training (PPA).
 - 🎉 Please also see our [**FALCON**](https://falcon-vla.github.io/), a VLA model with robust 3D spatial perception grounded in spatial foundation priors, accepted to <font color="#dd0000">ICLR 2026</font>.
 
 </div>
