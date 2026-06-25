@@ -55,7 +55,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
     <a class="citation-card__link" href="https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
   </div>
   <div class="citation-card__chart"><canvas id="citation-chart"></canvas></div>
-  <p class="citation-card__empty" id="citation-chart-empty" hidden>Citation history is being collected — the daily crawler will fill in this chart over the coming days.</p>
+  <p class="citation-card__empty" id="citation-chart-empty" hidden>Citation data is temporarily unavailable.</p>
 </div>
 
 # 📝 Selected Publications
@@ -74,7 +74,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 - GR-3 follows instructions and generalizes to novel objects and concepts.
 - We can adapt GR-3 to novel settings with few-shot human trajectories.
 - GR-3 is able to proceed long-horizon and dexterous manipulation tasks.
-- I am in charge of the <font color="#dd0000">multi-modal</font> and <font color="#dd0000">cross-embodiment</font> co-training (PPA).
+- I am in charge of the <font color="#dd0000">multi-modal</font> and <font color="#dd0000">cross-embodiment</font> co-training.
 - 🎉 Please also see our [**FALCON**](https://falcon-vla.github.io/), a VLA model with robust 3D spatial perception grounded in spatial foundation priors, accepted to <font color="#dd0000">ICLR 2026</font>.
 
 </div>
@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', function () {
   {% else %}
   var base = 'https://raw.githubusercontent.com/{{ site.repository }}/';
   {% endif %}
-  var url = base + 'google-scholar-stats/gs_data_history.json';
+  var url = base + 'google-scholar-stats/gs_data.json';
 
   function showEmpty() {
     var e = document.getElementById('citation-chart-empty');
@@ -339,12 +339,41 @@ document.addEventListener('DOMContentLoaded', function () {
     if (wrap) wrap.style.display = 'none';
   }
 
-  function render(history) {
-    if (!history || history.length === 0) { showEmpty(); return; }
-    if (typeof Chart === 'undefined') { showEmpty(); return; }
+  // Build a monthly cumulative citation curve from Google Scholar's yearly
+  // counts, interpolated across months, ending at the current month (= visit
+  // time) anchored to the live total. Scholar exposes per-year data only, so
+  // intra-year months are linearly interpolated.
+  function buildMonthly(cpy, total) {
+    var years = Object.keys(cpy).map(Number).filter(function (y) { return !isNaN(y); }).sort(function (a, b) { return a - b; });
+    if (years.length === 0) return null;
 
-    var labels = history.map(function (h) { return h.date; });
-    var data = history.map(function (h) { return h.citations; });
+    var now = new Date();
+    var curYear = now.getFullYear();
+    var curMonth = now.getMonth() + 1;
+    var startYear = years[0];
+    if (curYear < startYear) curYear = startYear;
+
+    var sumPrev = 0;
+    for (var y = startYear; y < curYear; y++) { sumPrev += (cpy[y] || 0); }
+    var curCount = (typeof total === 'number' && total - sumPrev > 0) ? (total - sumPrev) : (cpy[curYear] || 0);
+
+    var labels = [], data = [], cum = 0;
+    for (var yr = startYear; yr <= curYear; yr++) {
+      var c = (yr < curYear) ? (cpy[yr] || 0) : curCount;
+      var months = (yr < curYear) ? 12 : curMonth;
+      for (var m = 1; m <= months; m++) {
+        var frac = (yr < curYear) ? (m / 12) : (curMonth > 0 ? m / curMonth : 1);
+        labels.push(yr + '-' + (m < 10 ? '0' : '') + m);
+        data.push(Math.round(cum + c * frac));
+      }
+      cum += c;
+    }
+    return { labels: labels, data: data };
+  }
+
+  function render(series) {
+    if (!series || series.data.length === 0 || typeof Chart === 'undefined') { showEmpty(); return; }
+
     var ctx = canvas.getContext('2d');
     var grad = ctx.createLinearGradient(0, 0, 0, 240);
     grad.addColorStop(0, 'rgba(20, 82, 204, 0.30)');
@@ -353,16 +382,16 @@ document.addEventListener('DOMContentLoaded', function () {
     new Chart(ctx, {
       type: 'line',
       data: {
-        labels: labels,
+        labels: series.labels,
         datasets: [{
-          label: 'Total citations',
-          data: data,
+          label: 'Cumulative citations',
+          data: series.data,
           borderColor: '#1452cc',
           backgroundColor: grad,
           fill: true,
-          tension: 0.35,
+          tension: 0.3,
           borderWidth: 2.5,
-          pointRadius: data.length > 40 ? 0 : 3,
+          pointRadius: 0,
           pointHoverRadius: 5,
           pointBackgroundColor: '#1452cc'
         }]
@@ -377,38 +406,27 @@ document.addEventListener('DOMContentLoaded', function () {
             backgroundColor: '#1f242b',
             padding: 10,
             titleColor: '#cfd6e4',
-            callbacks: { label: function (c) { return ' ' + c.parsed.y + ' citations'; } }
+            callbacks: {
+              title: function (items) { return items[0].label; },
+              label: function (c) { return ' ' + c.parsed.y + ' cumulative citations'; }
+            }
           }
         },
         scales: {
-          x: { grid: { display: false }, ticks: { maxTicksLimit: 7, color: '#6b7480', font: { size: 11 } } },
-          y: { grace: '8%', grid: { color: 'rgba(16,24,40,0.06)' }, ticks: { color: '#6b7480', precision: 0, font: { size: 11 } } }
+          x: { grid: { display: false }, ticks: { maxTicksLimit: 8, autoSkip: true, color: '#6b7480', font: { size: 11 } } },
+          y: { grace: '6%', beginAtZero: true, grid: { color: 'rgba(16,24,40,0.06)' }, ticks: { color: '#6b7480', precision: 0, font: { size: 11 } } }
         }
       }
     });
   }
 
-  // Local-dev sample so the chart is previewable before the crawler has run.
-  function sampleHistory() {
-    var out = [], base = 120, d = new Date();
-    d.setDate(d.getDate() - 29);
-    for (var i = 0; i < 30; i++) {
-      base += Math.floor(Math.random() * 3);
-      out.push({ date: d.toISOString().slice(0, 10), citations: base });
-      d.setDate(d.getDate() + 1);
-    }
-    return out;
-  }
-
   fetch(url, { cache: 'no-store' })
     .then(function (r) { if (!r.ok) throw new Error('no data'); return r.json(); })
-    .then(function (j) { render((j && j.history) || (Array.isArray(j) ? j : [])); })
-    .catch(function () {
-      if (location.hostname === '127.0.0.1' || location.hostname === 'localhost') {
-        render(sampleHistory());
-      } else {
-        showEmpty();
-      }
-    });
+    .then(function (d) {
+      var cpy = (d && d.cites_per_year) || {};
+      var total = (d && typeof d.citedby === 'number') ? d.citedby : null;
+      render(buildMonthly(cpy, total));
+    })
+    .catch(showEmpty);
 });
 </script>
