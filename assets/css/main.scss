@@ -404,6 +404,12 @@ html {
     margin: 0.5em 0 0;
 }
 
+/* Per-paper citation counts: red + bold to match venue highlights */
+.show_paper_citations {
+    color: #dd0000;
+    font-weight: 700;
+}
+
 /* ==========================================================================
    Tags / pills (for inline GitHub star badges spacing)
    ========================================================================== */
