@@ -40,21 +40,144 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* ==========================================================================
+   Custom theme layer — modern academic redesign
+   ========================================================================== */
+
+:root {
+    --accent: #{$accent-color};
+    --accent-dark: #{$accent-color-dark};
+    --accent-soft: rgba(20, 82, 204, 0.08);
+    --accent-soft-strong: rgba(20, 82, 204, 0.14);
+    --ink: #1f242b;
+    --muted: #6b7480;
+    --hairline: #e7eaef;
+    --surface: #ffffff;
+    --page-bg: #f6f7fb;
+}
+
+/* ---- Global polish -------------------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--page-bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.005em;
+}
+
+::selection {
+    background: var(--accent-soft-strong);
+    color: var(--accent-dark);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+    background: #c7ccd6;
+    border-radius: 10px;
+    border: 3px solid var(--page-bg);
+}
+::-webkit-scrollbar-thumb:hover { background: #aab1bd; }
+
+/* Lift the main content onto a clean white "sheet" */
+#main {
+    background: var(--surface);
+    border-radius: 18px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04),
+                0 12px 40px rgba(16, 24, 40, 0.06);
+    margin-top: 1.6em;
+    margin-bottom: 2.4em;
+    padding-top: 1.6em;
+    padding-bottom: 2em;
+
+    @include breakpoint($large) {
+        padding-left: 1.8em;
+        padding-right: 1.8em;
+    }
+}
+
+/* ---- Content links ------------------------------------------------------- */
+.page__content a {
+    color: var(--accent);
+    text-decoration: none;
+    background-image: linear-gradient(var(--accent), var(--accent));
+    background-size: 0% 1.5px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.25s ease, color 0.15s ease;
+}
+.page__content a:hover {
+    color: var(--accent-dark);
+    text-decoration: none;
+    background-size: 100% 1.5px;
+}
+/* Don't underline-animate links that wrap images/badges */
+.page__content a:has(img) {
+    background-image: none;
+}
+
+/* ---- Section headers ----------------------------------------------------- */
+/* Clean anchor offset so the sticky navbar never covers a jumped-to section */
+html {
+    scroll-padding-top: 5em;
+}
+.anchor {
+    display: block;
+    position: relative;
+}
+
+.page__content h1 {
+    position: relative;
+    font-size: 1.65em;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+    margin-top: 1.6em;
+    padding-bottom: 0.35em;
+    padding-left: 0.7em;
+    border-bottom: 1px solid var(--hairline);
+}
+.page__content h1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.18em;
+    bottom: 0.55em;
+    width: 5px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, var(--accent) 0%, #4f86ff 100%);
+}
+
+/* ---- Intro paragraph emphasis ------------------------------------------- */
+.page__content > p:first-of-type {
+    font-size: 1.02em;
+}
+
+/* ==========================================================================
+   Publication / project cards
+   ========================================================================== */
 .paper-box {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 1.6em 0.6em;
-    border-radius: 10px;
-    transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+    border: 1px solid var(--hairline);
+    border-radius: 16px;
+    padding: 1.4em 1.3em;
+    margin-bottom: 1.1em;
+    background: var(--surface);
+    transition: border-color 0.25s ease, box-shadow 0.3s ease, transform 0.25s ease;
 
     &:hover {
-        background-color: #fafbfd;
-        box-shadow: 0 6px 22px rgba(0, 54, 159, 0.08);
-        transform: translateY(-2px);
+        border-color: rgba(20, 82, 204, 0.35);
+        box-shadow: 0 10px 30px rgba(16, 24, 40, 0.10);
+        transform: translateY(-3px);
     }
 
     .paper-box-image{
@@ -66,10 +189,10 @@
         img, video {
             max-width: 400px;
             width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(16, 24, 40, 0.16);
             object-fit: cover;
-            transition: transform 0.3s ease;
+            transition: transform 0.35s ease;
         }
     }
 
@@ -82,62 +205,209 @@
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
+        flex-wrap: nowrap;
+
         .paper-box-image{
             justify-content: left;
-            min-width: 200px;
+            flex: 0 0 auto;
+            width: 270px;
             max-width: 40%;
+            min-width: 180px;
             order: 1;
         }
 
         .paper-box-text{
             justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
+            flex: 1 1 0;
+            min-width: 0;
+            max-width: none;
+            padding-left: 1.8em;
             order: 2;
+
+            /* keep dense card content compact and on as few lines as possible */
+            font-size: 0.95em;
+            line-height: 1.5;
+
+            ul { margin-top: 0.5em; }
+            ul li { line-height: 1.45; margin-bottom: 0.4em; }
+            p { margin-bottom: 0.45em; }
         }
-
     }
-
-
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
-}
-
-h1 {
-    border-bottom: 2px solid #f0f2f5;
-    padding-bottom: 0.3em;
-}
-
+/* Venue badge on each card */
 .badge {
-    padding: 0.25rem 0.85rem;
+    padding: 0.3rem 0.8rem;
     position: absolute;
     z-index: 5;
-    margin-top: .5em;
-    margin-left: -.5em;
+    top: 0.6em;
+    left: 0.6em;
+    margin: 0;
     color: white;
-    background: linear-gradient(135deg, #00369f 0%, #2a6bd4 100%);
-    font-size: .8em;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0, 54, 159, 0.25);
-    letter-spacing: 0.02em;
+    background: linear-gradient(135deg, var(--accent-dark) 0%, #3f7bff 100%);
+    font-size: .72em;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(13, 58, 153, 0.32);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-/* Smooth scrolling for in-page anchor navigation */
-html {
-    scroll-behavior: smooth;
+/* Resource link row inside a card ( project | arXiv | github ... ) */
+.paper-box-text p a[href] {
+    /* keep default; specific styling handled by .page__content a */
 }
 
-/* Slightly richer link affordance within content */
-.page__content a {
-    transition: color 0.15s ease;
+/* ==========================================================================
+   News & list items
+   ========================================================================== */
+.page__content ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.page__content ul li {
+    position: relative;
+    padding-left: 1.4em;
+    margin-bottom: 0.7em;
+    line-height: 1.6;
+}
+.page__content ul li:before {
+    content: '';
+    position: absolute;
+    left: 0.15em;
+    top: 0.62em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+}
+/* nested lists get a lighter marker */
+.page__content ul li ul li:before {
+    background: #b9c0cc;
+    box-shadow: none;
+}
+/* Emphasize the leading date in italics */
+.page__content ul li > em:first-child {
+    color: var(--muted);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.92em;
+}
+
+/* ---- Collapsible News ---------------------------------------------------- */
+.news-hidden { display: none !important; }
+
+.page__content ul li.news-reveal {
+    animation: newsIn 0.32s ease both;
+}
+@keyframes newsIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to   { opacity: 1; transform: none; }
+}
+
+.news-toggle {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    margin: 0.6em 0 0.2em;
+    padding: 0.5em 1.15em;
+    font-family: inherit;
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--accent-dark);
+    background: var(--accent-soft);
+    border: 1px solid rgba(20, 82, 204, 0.18);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.18s ease;
+
+    .news-toggle__chevron {
+        transition: transform 0.22s ease;
+        font-size: 0.85em;
+    }
+    &.is-expanded .news-toggle__chevron {
+        transform: rotate(180deg);
+    }
+    &:hover {
+        color: #fff;
+        background: var(--accent);
+        border-color: var(--accent);
+        box-shadow: 0 6px 16px rgba(20, 82, 204, 0.30);
+        transform: translateY(-1px);
+    }
+    &:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+    }
+}
+
+/* ==========================================================================
+   Citation chart card
+   ========================================================================== */
+.citation-card {
+    border: 1px solid var(--hairline);
+    border-radius: 16px;
+    padding: 1.3em 1.5em 1.5em;
+    background: var(--surface);
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 10px 28px rgba(16, 24, 40, 0.05);
+}
+
+.citation-card__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    margin-bottom: 0.8em;
+}
+
+.citation-card__total {
+    font-size: 2.2em;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--accent-dark);
+    letter-spacing: -0.02em;
+
+    .citation-card__total-label {
+        display: inline-block;
+        margin-left: 0.35em;
+        font-size: 0.4em;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--muted);
+        vertical-align: middle;
+    }
+}
+
+.citation-card__link {
+    font-size: 0.88em;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.citation-card__chart {
+    position: relative;
+    width: 100%;
+    height: 240px;
+}
+
+.citation-card__empty {
+    color: var(--muted);
+    font-size: 0.92em;
+    margin: 0.5em 0 0;
+}
+
+/* ==========================================================================
+   Tags / pills (for inline GitHub star badges spacing)
+   ========================================================================== */
+.page__content img[src*="badgen"],
+.page__content img[src*="shields"] {
+    vertical-align: middle;
 }

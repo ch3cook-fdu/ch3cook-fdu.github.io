@@ -26,7 +26,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 # 🔥 News
 
 - *Jun. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
-- *Feb. 2026*. &nbsp;🎉🎉 [OmniLottie](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie), generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
+- *Feb. 2026*. &nbsp;🎉🎉 [**OmniLottie**](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie), generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a Top-Seed Research Intern, working on generalist robotics.
 - *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
 - *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model, [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
@@ -43,6 +43,20 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 
 
+
+# 📈 Citations
+
+<div class="citation-card">
+  <div class="citation-card__head">
+    <div class="citation-card__total">
+      <span id="total_cit">—</span>
+      <span class="citation-card__total-label">total citations</span>
+    </div>
+    <a class="citation-card__link" href="https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+  </div>
+  <div class="citation-card__chart"><canvas id="citation-chart"></canvas></div>
+  <p class="citation-card__empty" id="citation-chart-empty" hidden>Citation history is being collected — the daily crawler will fill in this chart over the coming days.</p>
+</div>
 
 # 📝 Selected Publications
 
@@ -244,5 +258,157 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }, { rootMargin: '300px 0px' });
   vids.forEach(function (v) { io.observe(v); });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var LIMIT = 5;
+  var heading = document.getElementById('-news');
+  if (!heading) return;
+
+  var list = heading.nextElementSibling;
+  while (list && list.tagName !== 'UL') { list = list.nextElementSibling; }
+  if (!list) return;
+
+  var items = Array.prototype.filter.call(list.children, function (el) {
+    return el.tagName === 'LI';
+  });
+  if (items.length <= LIMIT) return;
+
+  function collapse() {
+    items.forEach(function (li, i) {
+      if (i >= LIMIT) { li.classList.add('news-hidden'); li.classList.remove('news-reveal'); }
+    });
+  }
+  function expand() {
+    items.forEach(function (li, i) {
+      if (i >= LIMIT) { li.classList.remove('news-hidden'); li.classList.add('news-reveal'); }
+    });
+  }
+
+  collapse();
+
+  var btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'news-toggle';
+  var hidden = items.length - LIMIT;
+  var label = document.createElement('span');
+  var chevron = document.createElement('span');
+  chevron.className = 'news-toggle__chevron';
+  chevron.textContent = '\u25BE';
+  label.textContent = 'Show ' + hidden + ' more';
+  btn.appendChild(label);
+  btn.appendChild(chevron);
+
+  var expanded = false;
+  btn.addEventListener('click', function () {
+    expanded = !expanded;
+    if (expanded) {
+      expand();
+      label.textContent = 'Show less';
+      btn.classList.add('is-expanded');
+    } else {
+      collapse();
+      label.textContent = 'Show ' + hidden + ' more';
+      btn.classList.remove('is-expanded');
+      heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+
+  list.parentNode.insertBefore(btn, list.nextSibling);
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var canvas = document.getElementById('citation-chart');
+  if (!canvas) return;
+
+  {% if site.google_scholar_stats_use_cdn %}
+  var base = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@';
+  {% else %}
+  var base = 'https://raw.githubusercontent.com/{{ site.repository }}/';
+  {% endif %}
+  var url = base + 'google-scholar-stats/gs_data_history.json';
+
+  function showEmpty() {
+    var e = document.getElementById('citation-chart-empty');
+    if (e) e.hidden = false;
+    var wrap = canvas.parentNode;
+    if (wrap) wrap.style.display = 'none';
+  }
+
+  function render(history) {
+    if (!history || history.length === 0) { showEmpty(); return; }
+    if (typeof Chart === 'undefined') { showEmpty(); return; }
+
+    var labels = history.map(function (h) { return h.date; });
+    var data = history.map(function (h) { return h.citations; });
+    var ctx = canvas.getContext('2d');
+    var grad = ctx.createLinearGradient(0, 0, 0, 240);
+    grad.addColorStop(0, 'rgba(20, 82, 204, 0.30)');
+    grad.addColorStop(1, 'rgba(20, 82, 204, 0.00)');
+
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Total citations',
+          data: data,
+          borderColor: '#1452cc',
+          backgroundColor: grad,
+          fill: true,
+          tension: 0.35,
+          borderWidth: 2.5,
+          pointRadius: data.length > 40 ? 0 : 3,
+          pointHoverRadius: 5,
+          pointBackgroundColor: '#1452cc'
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#1f242b',
+            padding: 10,
+            titleColor: '#cfd6e4',
+            callbacks: { label: function (c) { return ' ' + c.parsed.y + ' citations'; } }
+          }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { maxTicksLimit: 7, color: '#6b7480', font: { size: 11 } } },
+          y: { grace: '8%', grid: { color: 'rgba(16,24,40,0.06)' }, ticks: { color: '#6b7480', precision: 0, font: { size: 11 } } }
+        }
+      }
+    });
+  }
+
+  // Local-dev sample so the chart is previewable before the crawler has run.
+  function sampleHistory() {
+    var out = [], base = 120, d = new Date();
+    d.setDate(d.getDate() - 29);
+    for (var i = 0; i < 30; i++) {
+      base += Math.floor(Math.random() * 3);
+      out.push({ date: d.toISOString().slice(0, 10), citations: base });
+      d.setDate(d.getDate() + 1);
+    }
+    return out;
+  }
+
+  fetch(url, { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('no data'); return r.json(); })
+    .then(function (j) { render((j && j.history) || (Array.isArray(j) ? j : [])); })
+    .catch(function () {
+      if (location.hostname === '127.0.0.1' || location.hostname === 'localhost') {
+        render(sampleHistory());
+      } else {
+        showEmpty();
+      }
+    });
 });
 </script>
