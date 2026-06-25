@@ -18,7 +18,7 @@
                     var paperId = element.getAttribute('data')
                     var pub = pubs[paperId];
                     if (pub && pub['num_citations'] !== undefined) {
-                        element.innerHTML = ' | Citations: ' + pub['num_citations'];
+                        element.innerHTML = '<span class="cit-sep"> | </span>Citations: ' + pub['num_citations'];
                     }
                 });
             }

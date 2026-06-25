@@ -409,6 +409,11 @@ html {
     color: #dd0000;
     font-weight: 700;
 }
+/* keep the leading "|" separator normal weight + regular text color */
+.show_paper_citations .cit-sep {
+    color: var(--ink);
+    font-weight: 400;
+}
 
 /* ==========================================================================
    Tags / pills (for inline GitHub star badges spacing)
