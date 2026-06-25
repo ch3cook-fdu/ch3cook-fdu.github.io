@@ -30,7 +30,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a Top-Seed Research Intern, working on generalist robotics.
 - *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
 - *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model, [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
-- *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://badgen.net/github/stars/OmniSVG/OmniSVG?icon=github)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that generate SVGs. Now accepted to <font color="#dd0000">NeurIPS 2025</font>!
+- *Apr. 2025*. &nbsp;🎉🎉 We release [OmniSVG](https://arxiv.org/abs/2504.06263) [![](https://badgen.net/github/stars/OmniSVG/OmniSVG?icon=github)](https://github.com/OmniSVG/OmniSVG), a family of VLMs that generate SVGs. Accepted to <font color="#dd0000">NeurIPS 2025</font>!
 - *Sep. 2024*. &nbsp;🎉🎉 Two papers accepted to <font color="#dd0000">NeurIPS 2024</font>, one focuses on foundational 3D generative models ([MeshXL](https://arxiv.org/abs/2405.20853) [![](https://badgen.net/github/stars/OpenMeshLab/MeshXL?icon=github)](https://github.com/OpenMeshLab/MeshXL)), and another one explores Mamba architecture for 3D detection ([3DET-Mamba](https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf)).
 - *Jul. 2024*. &nbsp;🎉🎉 I joined **<font color="#3559b0">ByteDance Research</font>** as a full-time researcher, working on generalist robotics.
 - *May. 2024*. &nbsp;🎉🎉 We release [MeshXL](https://arxiv.org/abs/2405.20853) [![](https://badgen.net/github/stars/OpenMeshLab/MeshXL?icon=github)](https://github.com/OpenMeshLab/MeshXL), a family of generative 3D foundation models for 3D meshes.
@@ -138,7 +138,7 @@ Chilam Cheang, **<u>Sijin Chen</u>**, Zhongren Cui, [Yingdong Hu](https://yingdo
 [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_LL3DA_Visual_Interactive_Instruction_Tuning_for_Omni-3D_Understanding_Reasoning_and_CVPR_2024_paper.pdf) \| [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
 
 - Propose a Large Language 3D Assistant that responds to both visual interactions and textual instructions in complex 3D environments.
-- 🎉 Please also see our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://badgen.net/github/stars/OpenM3D/M3DBench?icon=github)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D language models with multi-modal prompts. Now accepted to <font color="#dd0000">ECCV 2024</font>.
+- 🎉 Please also see our [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://badgen.net/github/stars/OpenM3D/M3DBench?icon=github)](https://github.com/OpenM3D/M3DBench), a dataset querying 3D language models with multi-modal prompts. Accepted to <font color="#dd0000">ECCV 2024</font>.
 </div>
 </div>
 
