@@ -48,9 +48,16 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 <div class="citation-card">
   <div class="citation-card__head">
-    <div class="citation-card__total">
-      <span id="total_cit">—</span>
-      <span class="citation-card__total-label">total citations</span>
+    <div class="citation-card__stats">
+      <div class="citation-card__total">
+        <span id="total_cit">—</span>
+        <span class="citation-card__total-label">total citations</span>
+      </div>
+      <div class="citation-card__metrics">
+        <span>h-index&nbsp;<strong id="h_index">—</strong></span>
+        <span class="citation-metric-sep">·</span>
+        <span>i10-index&nbsp;<strong id="i10_index">—</strong></span>
+      </div>
     </div>
     <div class="citation-card__controls">
       <div class="citation-toggle" id="citation-toggle">
@@ -66,7 +73,9 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 # 📝 Selected Publications
 
-I am broadly interested in using language as a medium for understanding, generating, and interacting with the physical world. My research builds models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate). (\*: equal contribution, †: project lead, ‡: corresponding author)
+I am broadly interested in using language as a medium for understanding, generating, and interacting with the physical world. My research builds models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate). 
+
+(\*: equal contribution, †: project lead, ‡: corresponding author)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><video src='images/gr3-full.mp4' poster='images/gr3-full-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
 <div class='paper-box-text' markdown="1">

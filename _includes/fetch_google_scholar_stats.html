@@ -12,6 +12,10 @@
             success: function (data) {
                 var totalEle = document.getElementById('total_cit');
                 if (totalEle) { totalEle.innerHTML = data['citedby']; }
+                var hEle = document.getElementById('h_index');
+                if (hEle && data['hindex'] !== undefined) { hEle.innerHTML = data['hindex']; }
+                var iEle = document.getElementById('i10_index');
+                if (iEle && data['i10index'] !== undefined) { iEle.innerHTML = data['i10index']; }
                 var pubs = data['publications'] || {};
                 var citationEles = document.getElementsByClassName('show_paper_citations')
                 Array.prototype.forEach.call(citationEles, element => {

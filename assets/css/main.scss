@@ -386,6 +386,31 @@ html {
     }
 }
 
+.citation-card__stats {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9em;
+    flex-wrap: wrap;
+}
+
+.citation-card__metrics {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--muted);
+
+    strong {
+        color: var(--accent-dark);
+        font-weight: 700;
+    }
+}
+
+.citation-metric-sep {
+    color: #c7ccd6;
+}
+
 .citation-card__controls {
     display: flex;
     align-items: center;
