@@ -54,9 +54,9 @@ I am broadly interested in scalable training methods, and my work spans **genera
         <span class="citation-card__total-label">total citations</span>
       </div>
       <div class="citation-card__metrics">
-        <span>h-index&nbsp;<strong id="h_index">—</strong></span>
+        <span><strong id="h_index">—</strong>&nbsp;h-index</span>
         <span class="citation-metric-sep">·</span>
-        <span>i10-index&nbsp;<strong id="i10_index">—</strong></span>
+        <span><strong id="i10_index">—</strong>&nbsp;i10-index</span>
       </div>
     </div>
     <div class="citation-card__controls">
