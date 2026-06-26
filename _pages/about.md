@@ -26,7 +26,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 # 🔥 News
 
 - *Jun. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
-- *Feb. 2026*. &nbsp;🎉🎉 [**OmniLottie**](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie), generating vector animations via parameterized Lottie tokens, is accepted to <font color="#dd0000">CVPR 2026</font>!
+- *Feb. 2026*. &nbsp;🎉🎉 [**OmniLottie**](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie) is accepted to <font color="#dd0000">CVPR 2026</font>!
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a **Top-Seed** Research Intern, working on generalist robotics.
 - *Sep. 2025*. &nbsp;🎓🎓 I started my Ph.D. at **the University of Hong Kong (HKU-MMLab)** with Prof. [Xihui Liu](https://xh-liu.github.io/).
 - *Jul. 2025*. &nbsp;🤖🤖 We release our latest Vision-Language-Action model, [**GR-3**](https://arxiv.org/abs/2507.15493)\[[demos](https://seed.bytedance.com/GR3)\]!
@@ -35,7 +35,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 - *Jul. 2024*. &nbsp;🎉🎉 I joined **<font color="#3559b0">ByteDance Research</font>** as a full-time researcher, working on generalist robotics.
 - *May. 2024*. &nbsp;🎉🎉 We release [**MeshXL**](https://arxiv.org/abs/2405.20853) [![](https://badgen.net/github/stars/OpenMeshLab/MeshXL?icon=github)](https://github.com/OpenMeshLab/MeshXL), a family of generative 3D foundation models for 3D meshes.
 - *May. 2024*. &nbsp;🎉🎉 I successfully defended my master's thesis! \[[defense slides](presentation/Sijin_Chen_master_thesis_defense.pdf)\]
-- *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [**Vote2Cap-DETR++**](https://arxiv.org/abs/2309.02999) [![](https://badgen.net/github/stars/ch3cook-fdu/Vote2Cap-DETR?icon=github)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>. 
+- *Apr. 2024*. &nbsp;🎉🎉 [**Vote2Cap-DETR++**](https://arxiv.org/abs/2309.02999) [![](https://badgen.net/github/stars/ch3cook-fdu/Vote2Cap-DETR?icon=github)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) is accepted to <font color="#dd0000">T-PAMI 2024</font>. 
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [**LL3DA**](https://arxiv.org/abs/2311.18651) [![](https://badgen.net/github/stars/Open3DA/LL3DA?icon=github)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 - *Jan. 2024*. &nbsp;🐧🐧 I joined **<font color="#3559b0">Tencent</font>** as a research intern, working on 3D generation. 
 - *Oct. 2023*. &nbsp;🥇🥇 Win the Scan2Cap Challenge at <font color="#dd0000">ICCV 2023</font>. 
