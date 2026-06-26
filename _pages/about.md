@@ -52,7 +52,13 @@ I am broadly interested in scalable training methods, and my work spans **genera
       <span id="total_cit">—</span>
       <span class="citation-card__total-label">total citations</span>
     </div>
-    <a class="citation-card__link" href="https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+    <div class="citation-card__controls">
+      <div class="citation-toggle" id="citation-toggle">
+        <button type="button" class="is-active" data-mode="total">Total</button>
+        <button type="button" data-mode="avg">Avg / paper</button>
+      </div>
+      <a class="citation-card__link" href="https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+    </div>
   </div>
   <div class="citation-card__chart"><canvas id="citation-chart"></canvas></div>
   <p class="citation-card__empty" id="citation-chart-empty" hidden>Citation data is temporarily unavailable.</p>
@@ -339,11 +345,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (wrap) wrap.style.display = 'none';
   }
 
-  // Build a monthly cumulative citation curve from Google Scholar's yearly
-  // counts, interpolated across months, ending at the current month (= visit
-  // time) anchored to the live total. Scholar exposes per-year data only, so
-  // intra-year months are linearly interpolated.
-  function buildMonthly(cpy, total) {
+  // Build monthly series from Google Scholar yearly data:
+  //  - cite: cumulative citations (per-year counts interpolated across months,
+  //    ending at the current month / visit time, anchored to the live total)
+  //  - avg:  cumulative citations divided by cumulative number of papers
+  //    (papers counted by their publication year)
+  function buildSeries(cpy, total, pubs) {
     var years = Object.keys(cpy).map(Number).filter(function (y) { return !isNaN(y); }).sort(function (a, b) { return a - b; });
     if (years.length === 0) return null;
 
@@ -357,35 +364,57 @@ document.addEventListener('DOMContentLoaded', function () {
     for (var y = startYear; y < curYear; y++) { sumPrev += (cpy[y] || 0); }
     var curCount = (typeof total === 'number' && total - sumPrev > 0) ? (total - sumPrev) : (cpy[curYear] || 0);
 
-    var labels = [], data = [], cum = 0;
+    // papers grouped by publication year
+    var papersByYear = {};
+    Object.keys(pubs || {}).forEach(function (k) {
+      var bib = pubs[k] && pubs[k].bib;
+      var py = bib && parseInt(bib.pub_year, 10);
+      if (py && !isNaN(py)) papersByYear[py] = (papersByYear[py] || 0) + 1;
+    });
+    function papersThrough(year) {
+      var n = 0;
+      for (var p in papersByYear) { if (+p <= year) n += papersByYear[p]; }
+      return n;
+    }
+
+    var labels = [], cite = [], avg = [], cum = 0;
     for (var yr = startYear; yr <= curYear; yr++) {
       var c = (yr < curYear) ? (cpy[yr] || 0) : curCount;
       var months = (yr < curYear) ? 12 : curMonth;
+      var papers = papersThrough(yr);
       for (var m = 1; m <= months; m++) {
         var frac = (yr < curYear) ? (m / 12) : (curMonth > 0 ? m / curMonth : 1);
+        var cc = cum + c * frac;
         labels.push(yr + '-' + (m < 10 ? '0' : '') + m);
-        data.push(Math.round(cum + c * frac));
+        cite.push(Math.round(cc));
+        avg.push(papers > 0 ? Math.round(cc / papers * 10) / 10 : 0);
       }
       cum += c;
     }
-    return { labels: labels, data: data };
+    return { labels: labels, cite: cite, avg: avg };
   }
 
-  function render(series) {
-    if (!series || series.data.length === 0 || typeof Chart === 'undefined') { showEmpty(); return; }
+  var MODES = {
+    total: { label: 'Cumulative citations', unit: ' cumulative citations', key: 'cite' },
+    avg: { label: 'Avg citations / paper', unit: ' avg citations / paper', key: 'avg' }
+  };
+  var chart = null, series = null, mode = 'total';
+
+  function render() {
+    if (!series || series.cite.length === 0 || typeof Chart === 'undefined') { showEmpty(); return; }
 
     var ctx = canvas.getContext('2d');
     var grad = ctx.createLinearGradient(0, 0, 0, 240);
     grad.addColorStop(0, 'rgba(20, 82, 204, 0.30)');
     grad.addColorStop(1, 'rgba(20, 82, 204, 0.00)');
 
-    new Chart(ctx, {
+    chart = new Chart(ctx, {
       type: 'line',
       data: {
         labels: series.labels,
         datasets: [{
-          label: 'Cumulative citations',
-          data: series.data,
+          label: MODES[mode].label,
+          data: series[MODES[mode].key],
           borderColor: '#1452cc',
           backgroundColor: grad,
           fill: true,
@@ -408,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function () {
             titleColor: '#cfd6e4',
             callbacks: {
               title: function (items) { return items[0].label; },
-              label: function (c) { return ' ' + c.parsed.y + ' cumulative citations'; }
+              label: function (c) { return ' ' + c.parsed.y + MODES[mode].unit; }
             }
           }
         },
@@ -420,12 +449,34 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  function setMode(m) {
+    if (!series || !chart || !MODES[m]) return;
+    mode = m;
+    chart.data.datasets[0].data = series[MODES[m].key];
+    chart.data.datasets[0].label = MODES[m].label;
+    chart.update();
+    var toggle = document.getElementById('citation-toggle');
+    if (toggle) {
+      Array.prototype.forEach.call(toggle.querySelectorAll('button'), function (b) {
+        b.classList.toggle('is-active', b.getAttribute('data-mode') === m);
+      });
+    }
+  }
+
   fetch(url, { cache: 'no-store' })
     .then(function (r) { if (!r.ok) throw new Error('no data'); return r.json(); })
     .then(function (d) {
       var cpy = (d && d.cites_per_year) || {};
       var total = (d && typeof d.citedby === 'number') ? d.citedby : null;
-      render(buildMonthly(cpy, total));
+      series = buildSeries(cpy, total, d && d.publications);
+      render();
+      var toggle = document.getElementById('citation-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function (e) {
+          var btn = e.target.closest('button[data-mode]');
+          if (btn) setMode(btn.getAttribute('data-mode'));
+        });
+      }
     })
     .catch(showEmpty);
 });
