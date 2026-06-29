@@ -25,6 +25,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 # 🔥 News
 
+- *Jun. 2026*. &nbsp;🤖🤖 We release [**Translation as a Bridging Action**](https://translation-as-a-bridging-action.github.io/), transferring manipulation skills from human data to bi-manual robots via a shared translation-based bridging action!
 - *Jun. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
 - *Feb. 2026*. &nbsp;🎉🎉 [**OmniLottie**](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie) is accepted to <font color="#dd0000">CVPR 2026</font>!
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a **Top-Seed** Research Intern, working on generalist robotics.
@@ -73,9 +74,26 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 # 📝 Selected Publications
 
-I am broadly interested in using language as a medium for understanding, generating, and interacting with the physical world. My research builds models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate). 
+I am broadly interested in using language as a medium for understanding, generating, and interacting with the physical world. My research builds models that can <font color="#dd0000">understand</font> ([Vote2Cap-DETR](https://arxiv.org/abs/2301.02508), [LL3DA](https://arxiv.org/abs/2311.18651)), <font color="#dd0000">generate</font> ([MeshXL](https://arxiv.org/abs/2405.20853), [OmniSVG](https://arxiv.org/abs/2504.06263)), and <font color="#dd0000">interact</font> ([GR-3](https://seed.bytedance.com/GR3), [Bridging Action](https://translation-as-a-bridging-action.github.io/)) with the physical world. Please find my full publication list at [google scholar](https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate). 
 
 (\*: equal contribution, †: project lead, ‡: corresponding author)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video src='images/translation-bridging.mp4' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>Translation as a Bridging Action: Transferring Manipulation Skills from Humans to Robots</font>**](https://arxiv.org/abs/2606.28133) \\
+**<font color="#dd0000">Preprint 2026</font>** \\
+**<u>Sijin Chen</u>**, Kaixuan Jiang, [Haixin Shi](https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en)$^{\ddagger}$, Yanhui Wang, Weiheng Zhong, Haosheng Li, Bo Jiang, [Yuxiao Liu](https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en), [Xihui Liu](https://xh-liu.github.io/)$^{\ddagger}$
+
+[project](https://translation-as-a-bridging-action.github.io/) \| [arXiv](https://arxiv.org/abs/2606.28133)
+
+- We transfer manipulation skills from cheap, abundant <font color="#dd0000">human data</font> to a bi-manual robot via a translation-based <font color="#dd0000">bridging action</font> shared between humans and robots.
+- A $\pi_0$-like VLA with interleaved action tokens and attention masking handles missing action components across embodiments.
+- Large-scale human-only pre-training scales the bridging action and improves few-shot robot post-training.
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><video src='images/gr3-full.mp4' poster='images/gr3-full-poster.jpg' width="100%" autoplay loop muted playsinline preload="none"></video></div></div>
 <div class='paper-box-text' markdown="1">
