@@ -25,7 +25,7 @@ I am broadly interested in scalable training methods, and my work spans **genera
 
 # 🔥 News
 
-- *Jun. 2026*. &nbsp;🤖🤖 We release [**Translation as a Bridging Action**](https://translation-as-a-bridging-action.github.io/), transferring manipulation skills from human data to bi-manual robots via a shared translation-based bridging action!
+- *Jun. 2026*. &nbsp;🤖🤖 We release [**Translation as a Bridging Action**](https://arxiv.org/abs/2606.28133), transferring manipulation skills from human data to bi-manual robots via a shared translation-based bridging action!
 - *Jun. 2026*. &nbsp;📣📣 We are hosting the [**ScaleBot Workshop**](https://scalebot-workshop.github.io/), the first workshop on Scalable Robot Learning Systems at <font color="#dd0000">CVPR 2026</font>, feel free to reach out!
 - *Feb. 2026*. &nbsp;🎉🎉 [**OmniLottie**](https://openvglab.github.io/OmniLottie/) [![](https://badgen.net/github/stars/OpenVGLab/OmniLottie?icon=github)](https://github.com/OpenVGLab/OmniLottie) is accepted to <font color="#dd0000">CVPR 2026</font>!
 - *Oct. 2025*. &nbsp;🤖🤖 I joined **<font color="#3559b0">ByteDance Seed</font>** (Seed-Robotics) as a **Top-Seed** Research Intern, working on generalist robotics.
@@ -85,11 +85,11 @@ I am broadly interested in using language as a medium for understanding, generat
 **<font color="#dd0000">Preprint 2026</font>** \\
 **<u>Sijin Chen</u>**, Kaixuan Jiang, [Haixin Shi](https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en)$^{\ddagger}$, Yanhui Wang, Weiheng Zhong, Haosheng Li, Bo Jiang, [Yuxiao Liu](https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en), [Xihui Liu](https://xh-liu.github.io/)$^{\ddagger}$
 
-[project](https://translation-as-a-bridging-action.github.io/) \| [arXiv](https://arxiv.org/abs/2606.28133)
+[project](https://translation-as-a-bridging-action.github.io/) \| [arXiv](https://arxiv.org/abs/2606.28133) \| [huggingface](https://huggingface.co/papers/2606.28133)
 
-- We transfer manipulation skills from cheap, abundant <font color="#dd0000">human data</font> to a bi-manual robot via a translation-based <font color="#dd0000">bridging action</font> shared between humans and robots.
-- A $\pi_0$-like VLA with interleaved action tokens and attention masking handles missing action components across embodiments.
-- Large-scale human-only pre-training scales the bridging action and improves few-shot robot post-training.
+- Can a bi-manual robot learn new skills from human action data? We propose a <font color="#dd0000">bridging action</font> — the relative wrist translation under the head camera — as a shared action space that transfers manipulation priors from humans to robots.
+- A unified action space with <font color="#dd0000">interleaved action tokens</font> elegantly handles the action components that are missing across different data sources.
+- On 15 bi-manual tasks beyond pick-and-place, the bridging action proves effective and keeps benefiting from large-scale human-only pre-training.
 
 </div>
 </div>
