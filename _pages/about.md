@@ -87,9 +87,9 @@ I am broadly interested in using language as a medium for understanding, generat
 
 [project](https://translation-as-a-bridging-action.github.io/) \| [arXiv](https://arxiv.org/abs/2606.28133) \| [huggingface](https://huggingface.co/papers/2606.28133)
 
-- Can a bi-manual robot learn new skills from human action data? We propose a <font color="#dd0000">bridging action</font> — the relative wrist translation under the head camera — as a shared action space that transfers manipulation priors from humans to robots.
-- A unified action space with <font color="#dd0000">interleaved action tokens</font> elegantly handles the action components that are missing across different data sources.
-- On 15 bi-manual tasks beyond pick-and-place, the bridging action proves effective and keeps benefiting from large-scale human-only pre-training.
+- Propose the <font color="#dd0000">bridging action</font>: relative wrist translation under the head camera, a shared action space that transfers manipulation priors from humans to robots.
+- A unified action space with <font color="#dd0000">interleaved action tokens</font> elegantly handles the potential absence of action components across different data sources.
+- Effective and scalable human-to-robot transfer that can benefit from large-scale human-only pre-training.
 
 </div>
 </div>
