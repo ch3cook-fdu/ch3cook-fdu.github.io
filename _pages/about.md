@@ -83,7 +83,7 @@ I am broadly interested in using language as a medium for understanding, generat
 
 [**<font size=4>Translation as a Bridging Action: Transferring Manipulation Skills from Humans to Robots</font>**](https://arxiv.org/abs/2606.28133) \\
 **<font color="#dd0000">Preprint 2026</font>** \\
-**<u>Sijin Chen</u>**, Kaixuan Jiang, [Haixin Shi](https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en)$^{\ddagger}$, Yanhui Wang, Weiheng Zhong, Haosheng Li, Bo Jiang, [Yuxiao Liu](https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en), [Xihui Liu](https://xh-liu.github.io/)$^{\ddagger}$
+**<u>Sijin Chen</u>**$^{\star}$, Kaixuan Jiang$^{\star}$, [Haixin Shi](https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en)$^{\ddagger}$, Yanhui Wang, Weiheng Zhong, Haosheng Li, Bo Jiang, [Yuxiao Liu](https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en), [Xihui Liu](https://xh-liu.github.io/)$^{\ddagger}$
 
 [project](https://translation-as-a-bridging-action.github.io/) \| [arXiv](https://arxiv.org/abs/2606.28133) \| [huggingface](https://huggingface.co/papers/2606.28133)
 
