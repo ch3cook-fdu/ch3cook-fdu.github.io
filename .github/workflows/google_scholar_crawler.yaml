@@ -1,23 +1,38 @@
 name: Get Citation Data
 
-on: 
- page_build: 
+on:
+ workflow_dispatch:
+ page_build:
  schedule:
   - cron:  '0 8 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
     - uses: actions/checkout@v2
     - name: Install Reqs
       run: |
         sudo apt-get install python3-setuptools
     - name: Run
+      timeout-minutes: 25
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
-        python3 main.py
+        # scholarly is frequently rate-limited/blocked on CI IPs and can hang,
+        # so cap each attempt and retry a few times before giving up.
+        n=0
+        until [ $n -ge 4 ]; do
+          timeout 300 python3 main.py && break
+          n=$((n+1))
+          echo "Attempt $n to fetch citation data failed or timed out; retrying in 30s..."
+          sleep 30
+        done
+        if [ ! -f results/gs_data.json ]; then
+          echo "Failed to fetch citation data after retries."
+          exit 1
+        fi
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
@@ -25,5 +40,5 @@ jobs:
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
+      env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
