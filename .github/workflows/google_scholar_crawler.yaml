@@ -1,44 +1,34 @@
 name: Get Citation Data
 
 on:
- workflow_dispatch:
- page_build:
- schedule:
-  - cron:  '0 8 * * *'
+  workflow_dispatch:
+  page_build:
+  schedule:
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      timeout-minutes: 25
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        # scholarly is frequently rate-limited/blocked on CI IPs and can hang,
-        # so cap each attempt and retry a few times before giving up.
-        n=0
-        until [ $n -ge 4 ]; do
-          timeout 300 python3 main.py && break
-          n=$((n+1))
-          echo "Attempt $n to fetch citation data failed or timed out; retrying in 30s..."
-          sleep 30
-        done
-        if [ ! -f results/gs_data.json ]; then
-          echo "Failed to fetch citation data after retries."
-          exit 1
-        fi
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env:
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch citation data and publish it
+        timeout-minutes: 15
+        run: |
+          cd ./google_scholar_crawler
+          python3 main.py
+          cd ./results
+          git init
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add *.json
+          git commit -m "Updated Citation Data"
+          git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats --force
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
